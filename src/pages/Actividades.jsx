@@ -1,7 +1,7 @@
 // src/pages/Actividades.jsx
 
 import React, { useState } from 'react';
-import './Lugares.css';
+import './Actividades.css';
 
 export default function Lugares() {
   const [lugar, setLugar] = useState('');
