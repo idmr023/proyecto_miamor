@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import './Actividades.css';
 
-export default function Lugares() {
+export default function Actividades() {
   const [lugar, setLugar] = useState('');
   const [categoria, setCategoria] = useState('gratis');
   const [items, setItems] = useState({ gratis: [], moderado: [], caro: [] });
