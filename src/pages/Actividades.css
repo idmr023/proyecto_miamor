@@ -1,0 +1,57 @@
+/* src/styles/Lugares.css */
+
+.project-container {
+  padding: 20px;
+  background: linear-gradient(to right, #f9e1e9, #fdf7fa);
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.project-card {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.categories {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.category {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f1f1f1;
+  min-height: 200px;
+}
+
+.item {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.item.dragging {
+  opacity: 0.5;
+}
+
+.item span {
+  flex-grow: 1;
+  word-break: break-word;
+}
