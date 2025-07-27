@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import HeartLoader from 'components/HeartLoader/HeartLoader';
 import Tools from './pages/Tools';
-import Actividades from './pages/Tools/Actividades/Actividades';
+import Actividades from './pages/Tools/Actividades';
 import Projects from './pages/Projects/Projects';
 import LoveGame from './pages/Projects/JuegaAmor/LoveGame';
 import Carta from './pages/Projects/CartitaAmor/Carta';
