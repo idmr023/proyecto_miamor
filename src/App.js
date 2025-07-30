@@ -2,11 +2,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import HeartLoader from 'components/HeartLoader/HeartLoader';
-import Tools from './pages/Tools';
-import Actividades from './pages/Tools/Actividades';
+import Tools from './pages/Herramientas/Tools';
 import Projects from './pages/Projects/Projects';
 import LoveGame from './pages/Projects/JuegaAmor/LoveGame';
 import Carta from './pages/Projects/CartitaAmor/Carta';
+import Actividades from 'pages/Herramientas/ListaActividades/Actividades';
 
 export default function App() {
   return (

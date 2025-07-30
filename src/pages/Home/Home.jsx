@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import "./Home.css";
 import VoiceAuth from "components/VoiceAuth";
 import { Navbar } from "components/NavBar/NavBar";
+import CountdownTimer from "./Countdown/components/CountDown";
 
 export default function Home() {
-  const [message, setMessage] = useState("Inicia sesión para continuar 💖");
   const navigate = useNavigate();
 
   return (
@@ -13,8 +13,11 @@ export default function Home() {
       <Navbar/>
 
       <main className="main-content">
-        <h1>Bienvenida a tu rincón amoroso 💌</h1>
-        <div className="heart">💗</div>
+        <h1>Bienvenida a tu rincón amoroso <div className="heart">💗</div></h1>
+        
+        <div>
+          <CountdownTimer/>
+        </div>
       </main>
 
       <footer className="footer">

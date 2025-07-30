@@ -1,5 +1,3 @@
-// src/pages/Actividades.jsx
-
 import React, { useState } from 'react';
 import './Actividades.css';
 
@@ -67,9 +65,9 @@ export default function Actividades() {
 
   return (
     <div className="lugares-container">
-      <h1>Proyectos para Mi Pareja</h1>
+      <h1>Actividades para realizar en conjunto</h1>
       <div className="project-card">
-        <h2>Lugares para visitar juntos</h2>
+        <h2>Lista de actividades</h2>
         <input
           type="text"
           value={lugar}
