@@ -27,7 +27,6 @@ const CountdownTimer = () => {
 
   // 3. Este efecto se ejecuta una sola vez y activa el contador automáticamente.
   useEffect(() => {
-    document.title = "Cuenta regresiva para vernos";
 
     const countdownInterval = setInterval(() => {
       const currentTime = new Date().getTime();

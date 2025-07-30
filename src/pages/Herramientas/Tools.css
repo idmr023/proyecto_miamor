@@ -1,0 +1,32 @@
+.projects-container {
+  min-height: 100vh;
+  background-color: #fff1f2;
+  color: #9d174d;
+  padding: 3rem;
+}
+
+.projects-list a{
+    text-decoration: none;
+    color: initial;
+    text-align: center;
+}
+
+.projects-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-item {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.75rem;
+}
