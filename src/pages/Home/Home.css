@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+.home-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ffe4ec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-content {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-content h1 {
+  color: #d63384;
+  font-size: 2.5em;
+}
+
+.main-content p {
+  color: #c2185b;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.main-content button {
+  background-color: #f06292;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-content button:hover {
+  background-color: #ec407a;
+}
+
+.heart {
+  font-size: 4em;
+  color: #f06292;
+  animation: bounce 2s infinite;
+  margin-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  color: #ad1457;
+  font-size: 0.9em;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

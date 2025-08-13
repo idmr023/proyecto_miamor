@@ -1,0 +1,18 @@
+.projects-container {
+  min-height: 100vh;
+  background-color: #fff1f2;
+  color: #9d174d;
+  padding: 3rem;
+}
+
+.projects-list a{
+    text-decoration: none;
+    color: initial;
+    text-align: center;
+}
+
+.projects-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

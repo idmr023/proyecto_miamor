@@ -1,0 +1,28 @@
+.navbar {
+  width: 100%;
+  background-color: #ffb6c1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px; 
+  box-sizing: border-box; 
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.nav-logo a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}

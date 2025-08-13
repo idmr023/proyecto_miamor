@@ -1,0 +1,63 @@
+    .carta-contenedor {
+      background: linear-gradient(to right, #ffe0ec, #fbeff8);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .carta {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      padding: 30px;
+      max-width: 650px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .carta img {
+      max-width: 150px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    .carta h1 {
+      color: #d14f7b;
+      margin-bottom: 20px;
+    }
+
+    .texto-escrito {
+      font-size: 1.05rem;
+      color: #444;
+      text-align: justify;
+      margin-bottom: 1.5rem;
+      min-height: 80px;
+    }
+
+    .respuestas {
+      margin-top: 30px;
+      position: relative;
+      height: 60px;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.08);
+      }
+    }
+
+    .btn-si {
+      animation: bounce 1.5s infinite;
+      transition: all 0.3s ease;
+    }
+
+    .btn-no {
+      position: absolute;
+      transition: 0.2s ease;
+    }

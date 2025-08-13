@@ -1,0 +1,15 @@
+/* El iframe en sí mismo */
+.game-iframe {
+  width: 700px;  /* Ancho fijo para simular un móvil */
+  min-height: 100vh; /* Ocupa el 95% de la altura del contenedor para tener un pequeño margen */
+  border-radius: 20px; /* Bordes redondeados */
+}
+.juego-contenedor{
+      background: linear-gradient(to right, #ffe0ec, #fbeff8);
+      min-height: 100vh;
+      max-height: 54%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+}

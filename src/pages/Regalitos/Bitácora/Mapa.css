@@ -1,0 +1,112 @@
+/* src/components/Mapa/Mapa.css */
+
+.map-page-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.map-container {
+  flex: 80%;
+  height: 100%;
+}
+.sidebar-container {
+  flex: 20%;
+  height: 100%;
+}
+
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; 
+  padding: 2rem;
+  background-color: #f7f7f7;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-container h2 {
+  margin-top: 0;
+  color: #333;
+  flex-shrink: 0;
+}
+
+.sidebar-date {
+  font-style: italic;
+  color: #666;
+  margin-top: -10px;
+  flex-shrink: 0;
+}
+
+.sidebar-image {
+  width: 100%;
+  max-height: 55vh; /* Le damos una altura MÁXIMA para que no domine en pantallas altas */
+  object-fit: cover; /* Importantísimo: Evita que la imagen se estire o deforme. La recorta para que encaje. */
+  border-radius: 8px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  flex-shrink: 1; /* Permite que la imagen se encoja si no hay espacio */
+}
+
+/* 3. DESCRIPCIÓN CON SCROLL INTERNO */
+.sidebar-description {
+  line-height: 1.6;
+  color: #444;
+  flex-grow: 1; /* Permite que crezca para ocupar el espacio sobrante */
+  min-height: 50px; /* Le damos una altura mínima para que no desaparezca */
+  overflow-y: auto; /* Si el TEXTO es muy largo, APARECERÁ UN SCROLL AQUÍ, solo en la descripción. */
+}
+
+/* 4. BOTONES DE NAVEGACIÓN FIJOS ABAJO */
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Eliminamos margin-top: auto y le decimos que no se encoja */
+  flex-shrink: 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ddd;
+}
+
+
+/* --- RESTO DEL CÓDIGO SIN CAMBIOS --- */
+
+.navigation-buttons button {
+  padding: 10px 20px;
+  background-color: #ffb6c1;
+  border: none;
+  border-radius: 5px;
+  color: #8c1a45;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin: 2px;
+}
+
+.navigation-buttons button:hover:not(:disabled) {
+  background-color: #f7a2b2;
+}
+
+.navigation-buttons button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.navigation-buttons span {
+  font-weight: bold;
+  color: #555;
+}
+
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.5rem;
+  color: #555;
+}

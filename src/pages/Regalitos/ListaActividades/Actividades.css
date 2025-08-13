@@ -1,0 +1,152 @@
+/* ============================================= */
+/*          ESTILOS GENERALES DEL CONTENEDOR     */
+/* ============================================= */
+.lugares-container {
+  min-height: 100vh;
+  background-color: #fff1f2;
+  color: #9d174d;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+/* ============================================= */
+/*          TARJETA SUPERIOR (INPUT Y BOTÓN)     */
+/* ============================================= */
+.input-card {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-card input[type="text"] {
+  flex-grow: 1; /* Hace que el input ocupe el espacio disponible */
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #523742;
+}
+
+.input-card .input-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-card select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.input-group select{
+  width: 100%;
+  text-align: center;
+}
+
+.projects-buttom {
+  padding: 12px 24px;
+  border: none;
+  background-color: #ffb6c1;
+  color: #9d174d;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.projects-buttom:hover {
+  background-color: #f7a2b2;
+}
+
+
+/* ============================================= */
+/*             COLUMNAS DE CATEGORÍAS            */
+/* ============================================= */
+.categories {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.category {
+  flex: 1; /* Cada columna ocupa el mismo espacio */
+  min-width: 0; /* Necesario para que flexbox no desborde con texto largo */
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.category h5 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #fff1f2;
+  font-size: 1.25em;
+}
+
+/* ============================================= */
+/*        TARJETAS DE ACTIVIDADES (EL ARREGLO)   */
+/* ============================================= */
+.item {
+  background: #fdf7fa;
+  border: 1px solid #f9e1e9;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  cursor: grab;
+
+  /* --- AQUÍ ESTÁ LA MAGIA --- */
+  display: flex;            /* 1. Activa Flexbox para poner los elementos en fila */
+  align-items: center;      /* 2. Centra verticalmente el texto y los botones */
+  justify-content: space-between; /* 3. Empuja el texto a la izquierda y los botones a la derecha */
+  gap: 0.5rem;              /* 4. Añade un pequeño espacio entre los botones */
+}
+
+.item:active {
+  cursor: grabbing;
+  background: #f9e1e9;
+}
+
+/* Estilo para el texto */
+.item span {
+  flex-grow: 1; /* Permite que el texto ocupe todo el espacio sobrante */
+  word-break: break-word; /* Evita que el texto largo rompa el diseño */
+  color: #8c1a45;
+}
+
+/* Estilo para los botones de acción (editar, duplicar, borrar) */
+.item button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem; /* Ajusta el tamaño de los emojis */
+  padding: 5px;
+  border-radius: 50%; /* Los hace redondos */
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.item button:hover {
+  background-color: #ffdde5;
+}
