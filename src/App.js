@@ -6,6 +6,7 @@ import Actividades from 'pages/Regalitos/ListaActividades/Actividades';
 import Mapa from 'pages/Regalitos/Bitácora/MapaAventuras';
 import Carta from 'pages/Regalitos/CartitaAmor/Carta';
 import LoveGame from 'pages/Regalitos/JuegaAmor/LoveGame';
+import MetasUniverso from 'pages/Regalitos/MetasUniverso/MetasUniverso';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/regalitos/bitacora" element={<Mapa/>} />
         <Route path="/regalitos/cartita_conocernos" element={<Carta/>} />
         <Route path="/regalitos/juega_amor" element={<LoveGame/>} />
+        <Route path="/regalitos/metas" element={<MetasUniverso />} />
       </Routes>
     </Router>
   );
