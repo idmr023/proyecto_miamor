@@ -24,6 +24,10 @@ export default function Regalitos() {
           enlace={'/regalitos/bitacora'} 
           texto={'Bitácora'}
         />
+        <BotonRedirec 
+          enlace={'/regalitos/metas'} 
+          texto={'Nuestras metas'}
+        />
     </div>
     </>
   );
