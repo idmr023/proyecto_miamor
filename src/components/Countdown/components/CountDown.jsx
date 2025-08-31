@@ -96,7 +96,7 @@ export const CountdownEnamorados = () => {
 
   return (
     <div className="countdown-timer-container">
-      <h2 className="countdown-name">Tiempo para cumplir nuestro plazo de enamorados:</h2>
+      <h2 className="countdown-name">Tiempo restante para ser enamorados:</h2>
       <p className="countdown-target-date">{formatDate(targetDate)}</p>
       <FormattedTimeDisplay time={timeRemaining} endMessage="¡Nuestro tiempo ha llegado! ❤️" />
     </div>
