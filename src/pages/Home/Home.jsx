@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { Navbar } from "components/NavBar/NavBar";
-import CountdownTimer from "components/Countdown/components/CountDown";
+import ContadoresDeAmor from "components/Countdown/components/ContadoresDeAmor";
 
 export default function Home() {
 
@@ -13,7 +13,7 @@ export default function Home() {
         <h1>Bienvenida a tu rincón amoroso <div className="heart">💗</div></h1>
         
         <div>
-          <CountdownTimer/>
+          <<ContadoresDeAmor/>
         </div>
       </main>
 
