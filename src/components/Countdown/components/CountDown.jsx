@@ -68,7 +68,7 @@ export const CountdownParaVernos = () => {
     if (currentDate > eventDate) {
       targetYear += 1;
     }
-    return new Date(targetYear, 7, 19).toISOString();
+    return new Date(targetYear, 9, 2).toISOString();
   });
 
   const timeRemaining = useCountdown(targetDate);
