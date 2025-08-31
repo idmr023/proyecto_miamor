@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { Navbar } from "components/NavBar/NavBar";
-import ContadoresDeAmor from "components/Countdown/components/ContadoresDeAmor";
+import ContadoresDeAmor from '../../components/Countdown/components/CountDown';
 
 export default function Home() {
 
