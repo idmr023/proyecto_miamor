@@ -13,7 +13,7 @@ export default function Home() {
         <h1>Bienvenida a tu rincón amoroso <div className="heart">💗</div></h1>
         
         <div>
-          <<ContadoresDeAmor/>
+          <ContadoresDeAmor/>
         </div>
       </main>
 
