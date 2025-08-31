@@ -63,7 +63,7 @@ export const CountdownParaVernos = () => {
   const [targetDate] = useState(() => {
     const currentDate = new Date();
     let targetYear = currentDate.getFullYear();
-    const eventDate = new Date(targetYear, 8, 2); // Mes 7 = Agosto, día 19
+    const eventDate = new Date(targetYear, 9, 2); // Mes 7 = Agosto, día 19
 
     if (currentDate > eventDate) {
       targetYear += 1;
