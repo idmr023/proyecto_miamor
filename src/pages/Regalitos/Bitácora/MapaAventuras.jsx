@@ -22,12 +22,13 @@ export default function Mapa() {
   const mapRef = useRef(null);
 
   useEffect(() => {
-    const q = query(collection(db, 'recuerdos'), orderBy('fecha', 'desc'));
+    // 1. CAMBIO AQUÍ: Ordenamos por fecha ascendente ('asc') para empezar por el más antiguo.
+    const q = query(collection(db, 'recuerdos'), orderBy('fecha', 'asc'));
     const unsubscribe = onSnapshot(q, (querySnapshot) => {
       const recuerdosData = querySnapshot.docs.map(doc => ({ ...doc.data(), id: doc.id }));
       setTodosRecuerdos(recuerdosData);
       
-      // Al cargar, la lista activa es la lista global
+      // La lista activa por defecto será la lista global, empezando por la primera cita.
       setListaActiva(recuerdosData);
       setIndiceActivo(0);
     });
@@ -43,10 +44,17 @@ export default function Mapa() {
       }
       lugares[key].recuerdos.push(recuerdo);
     });
+
+    // 2. CAMBIO AQUÍ: Nos aseguramos de que los recuerdos DENTRO de cada grupo
+    // también estén ordenados del más antiguo al más nuevo.
+    Object.values(lugares).forEach(lugar => {
+      lugar.recuerdos.sort((a, b) => a.fecha.toDate() - b.fecha.toDate());
+    });
+
     return Object.values(lugares);
   }, [todosRecuerdos]);
 
-  // Funciones de navegación (ahora son más genéricas)
+  // Funciones de navegación (sin cambios)
   const navegar = (direccion) => {
     const total = listaActiva.length;
     const nuevoIndice = (indiceActivo + direccion + total) % total;
@@ -55,6 +63,7 @@ export default function Mapa() {
   
   const recuerdoActual = listaActiva[indiceActivo];
 
+  // Efecto para centrar el mapa (sin cambios)
   useEffect(() => {
     if (mapRef.current && recuerdoActual) {
       const { lat, lng } = recuerdoActual.coordenadas;
@@ -66,8 +75,7 @@ export default function Mapa() {
     return <div className="loading-screen">Cargando recuerdos...</div>;
   }
   
-  // Variable para saber si estamos en una vista de lugar específico
-  const enVistaDeLugar = listaActiva.length > 1 && listaActiva !== todosRecuerdos;
+  const enVistaDeLugar = listaActiva !== todosRecuerdos;
 
   return (
     <div className="map-page-container">
@@ -87,7 +95,7 @@ export default function Mapa() {
               key={`lugar-${index}`}
               position={[lugar.coordenadas.lat, lugar.coordenadas.lng]}
               eventHandlers={{ click: () => {
-                setListaActiva(lugar.recuerdos);
+                setListaActiva(lugar.recuerdos); // La lista ya viene ordenada
                 setIndiceActivo(0);
               }}}
             >
@@ -104,7 +112,7 @@ export default function Mapa() {
       </div>
 
       <div className="sidebar-container">
-        {/* --- NUEVO ENCABEZADO DE NAVEGACIÓN CONTEXTUAL --- */}
+        {/* Encabezado contextual (ligeramente modificado para mayor claridad) */}
         {enVistaDeLugar && (
           <div className="lugar-navegacion-header">
             <h4>Recuerdo {indiceActivo + 1} de {listaActiva.length} en este lugar</h4>
@@ -115,6 +123,7 @@ export default function Mapa() {
             <button
               className="btn-ver-todos"
               onClick={() => {
+                // Al volver a la vista global, la reseteamos al recuerdo más antiguo
                 setListaActiva(todosRecuerdos);
                 setIndiceActivo(0);
               }}
@@ -124,7 +133,7 @@ export default function Mapa() {
           </div>
         )}
 
-        {/* --- CONTENIDO PRINCIPAL DEL RECUERDO --- */}
+        {/* Contenido principal del recuerdo (sin cambios) */}
         <div className="sidebar-content">
           <h2>{recuerdoActual.titulo}</h2>
           <p className="sidebar-date">
@@ -141,13 +150,13 @@ export default function Mapa() {
           <p className="sidebar-description">{recuerdoActual.descripcion}</p>
         </div>
 
-        {/* --- NAVEGACIÓN GLOBAL (solo se muestra si no estamos en una vista de lugar) --- */}
+        {/* Navegación global (ligeramente modificada para mayor claridad) */}
         {!enVistaDeLugar && (
           <div className="navigation-buttons">
             <button onClick={() => navegar(-1)} disabled={listaActiva.length <= 1}>
               &larr; Anterior
             </button>
-            <span>{`${indiceActivo + 1} / ${listaActiva.length}`}</span>
+            <span>{`Recuerdo ${indiceActivo + 1} / ${listaActiva.length}`}</span>
             <button onClick={() => navegar(1)} disabled={listaActiva.length <= 1}>
               Siguiente &rarr;
             </button>
