@@ -175,3 +175,44 @@
   font-size: 0.875rem;
   font-weight: 500;
 }
+
+/* ============================================= */
+/*          LISTA DE RECUERDOS EN SIDEBAR        */
+/* ============================================= */
+.lugar-lista-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.lugar-lista-container h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  color: #d1d5db; /* Un gris claro */
+}
+
+.lugar-lista-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lugar-lista-item {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.lugar-lista-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Estilo para el item que está seleccionado actualmente */
+.lugar-lista-item.activo {
+  background-color: #ffb6c1; /* Tu color rosa característico */
+  color: #8c1a45;
+  font-weight: bold;
+}

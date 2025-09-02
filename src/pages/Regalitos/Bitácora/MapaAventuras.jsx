@@ -3,11 +3,11 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './Mapa.css';
-import { db } from '../../../firebase-config'; // Asegúrate que la ruta sea correcta
+import { db } from '../../../firebase-config';
 import { collection, query, onSnapshot, orderBy } from 'firebase/firestore';
-import ImageCarousel from 'components/ImageCarrousel';
+import ImageCarousel from '../../components/ImageCarousel';
 
-// Configuración para arreglar el icono por defecto de Leaflet
+// ... (configuración del icono de Leaflet sin cambios) ...
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
@@ -15,13 +15,18 @@ L.Icon.Default.mergeOptions({
   shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
 });
 
-
 export default function Mapa() {
-  const [recuerdos, setRecuerdos] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [recuerdos, setRecuerdos] = useState([]); // Contiene TODOS los recuerdos, es nuestra "base de datos"
+  
+  // --- 1. NUEVOS ESTADOS PARA CONTROLAR LA NAVEGACIÓN ---
+  // 'listaActiva' es la lista que se muestra en el sidebar (puede ser la global o la de un lugar)
+  const [listaActiva, setListaActiva] = useState([]);
+  // 'indiceEnListaActiva' es el índice del recuerdo actual DENTRO de la listaActiva
+  const [indiceEnListaActiva, setIndiceEnListaActiva] = useState(0);
+
   const mapRef = useRef(null);
 
-  // Efecto para traer los datos de Firebase y ordenarlos por fecha
+  // Efecto para traer los datos de Firebase
   useEffect(() => {
     const q = query(collection(db, 'recuerdos'), orderBy('fecha', 'desc'));
     const unsubscribe = onSnapshot(q, (querySnapshot) => {
@@ -30,57 +35,59 @@ export default function Mapa() {
         recuerdosData.push({ ...doc.data(), id: doc.id });
       });
       setRecuerdos(recuerdosData);
+      
+      // --- 2. ESTADO INICIAL POR DEFECTO ---
+      // Al cargar, la lista activa es la lista completa de recuerdos.
+      setListaActiva(recuerdosData);
+      setIndiceEnListaActiva(0); // Empezamos en el primer recuerdo.
     });
-    // Limpiamos la suscripción al desmontar el componente
     return () => unsubscribe();
   }, []);
 
-  // Lógica de agrupación de recuerdos por coordenadas
+  // ... (lógica de 'lugaresAgrupados' con useMemo sin cambios) ...
   const lugaresAgrupados = useMemo(() => {
     const lugares = {};
     recuerdos.forEach(recuerdo => {
-      // Creamos una clave única para cada coordenada
       const key = `${recuerdo.coordenadas.lat}_${recuerdo.coordenadas.lng}`;
       if (!lugares[key]) {
-        // Si es la primera vez que vemos este lugar, lo inicializamos
         lugares[key] = {
           coordenadas: recuerdo.coordenadas,
           recuerdos: []
         };
       }
-      // Añadimos el recuerdo a la lista de este lugar
       lugares[key].recuerdos.push(recuerdo);
     });
-    return Object.values(lugares); // Devolvemos un array de objetos de lugar
+    return Object.values(lugares);
   }, [recuerdos]);
 
-  // Funciones para la navegación del carrusel en el sidebar
+
+  // --- 3. FUNCIONES DE NAVEGACIÓN ACTUALIZADAS ---
+  // Ahora operan sobre la 'listaActiva', no sobre la lista global.
   const irSiguiente = () => {
-    const nextIndex = (currentIndex + 1) % recuerdos.length;
-    setCurrentIndex(nextIndex);
+    const nextIndex = (indiceEnListaActiva + 1) % listaActiva.length;
+    setIndiceEnListaActiva(nextIndex);
   };
 
   const irAnterior = () => {
-    const prevIndex = (currentIndex - 1 + recuerdos.length) % recuerdos.length;
-    setCurrentIndex(prevIndex);
+    const prevIndex = (indiceEnListaActiva - 1 + listaActiva.length) % listaActiva.length;
+    setIndiceEnListaActiva(prevIndex);
   };
+  
+  // Obtenemos el recuerdo actual basándonos en la lista activa y su índice.
+  const recuerdoActual = listaActiva[indiceEnListaActiva];
 
-  // Efecto para centrar el mapa en el marcador del recuerdo actual
+  // Efecto para centrar el mapa en el recuerdo actual
   useEffect(() => {
-    if (mapRef.current && recuerdos.length > 0) {
-      const recuerdoActual = recuerdos[currentIndex];
+    if (mapRef.current && recuerdoActual) {
       const { lat, lng } = recuerdoActual.coordenadas;
-      mapRef.current.flyTo([lat, lng], 14); // 14 es el nivel de zoom
+      mapRef.current.flyTo([lat, lng], 14);
     }
-  }, [currentIndex, recuerdos]);
+  }, [recuerdoActual]); // Se ejecuta cada vez que 'recuerdoActual' cambia.
 
-  // Si aún no se han cargado los recuerdos, mostramos un mensaje
-  if (recuerdos.length === 0) {
+
+  if (!recuerdoActual) {
     return <div className="loading-screen">Cargando recuerdos...</div>;
   }
-
-  // Obtenemos el objeto del recuerdo actual usando el índice
-  const recuerdoActual = recuerdos[currentIndex];
 
   return (
     <div className="map-page-container">
@@ -95,27 +102,21 @@ export default function Mapa() {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           
-          {/* Mapeamos sobre los lugares agrupados para renderizar los marcadores */}
           {lugaresAgrupados.map((lugar, index) => {
-            // Lógica para determinar el texto del Popup
-            let popupText;
-            if (lugar.recuerdos.length === 1) {
-              popupText = lugar.recuerdos[0].titulo;
-            } else {
-              popupText = `${lugar.recuerdos.length} recuerdos en este lugar`;
-            }
+            const popupText = lugar.recuerdos.length === 1
+              ? lugar.recuerdos[0].titulo
+              : `${lugar.recuerdos.length} recuerdos en este lugar`;
 
             return (
               <Marker
                 key={`lugar-${index}`}
                 position={[lugar.coordenadas.lat, lugar.coordenadas.lng]}
-                // Al hacer clic en un marcador, seleccionamos el primer recuerdo de ese lugar
+                // --- 4. LÓGICA DE CLIC ACTUALIZADA ---
                 eventHandlers={{ click: () => {
-                  const primerRecuerdoDelLugar = lugar.recuerdos[0];
-                  const newIndex = recuerdos.findIndex(r => r.id === primerRecuerdoDelLugar.id);
-                  if (newIndex !== -1) {
-                    setCurrentIndex(newIndex);
-                  }
+                  // Al hacer clic, la lista activa ahora es la lista de este lugar.
+                  setListaActiva(lugar.recuerdos);
+                  // Y reseteamos el índice a 0 para mostrar el primer recuerdo del grupo.
+                  setIndiceEnListaActiva(0);
                 }}}
               >
                 <Popup><b>{popupText}</b></Popup>
@@ -126,23 +127,29 @@ export default function Mapa() {
       </div>
 
       <div className="sidebar-container">
-        {/* Lógica para mostrar un aviso si hay varios recuerdos en el mismo lugar */}
-        {(() => {
-          const recuerdosEnMismoLugar = lugaresAgrupados
-            .find(l => l.recuerdos.some(r => r.id === recuerdoActual.id))?.recuerdos || [];
+        {/* --- 5. RENDERIZADO DE LA LISTA DE RECUERDOS DEL LUGAR --- */}
+        {/* Solo mostramos esta lista si la lista activa tiene más de un elemento */}
+        {listaActiva.length > 1 && (
+          <div className="lugar-lista-container">
+            <h4>Recuerdos en este lugar:</h4>
+            <ul>
+              {listaActiva.map((recuerdo, index) => (
+                <li 
+                  key={recuerdo.id}
+                  // Añadimos una clase 'activo' al recuerdo que está seleccionado
+                  className={`lugar-lista-item ${index === indiceEnListaActiva ? 'activo' : ''}`}
+                  // Al hacer clic en un item de la lista, actualizamos el índice
+                  onClick={() => setIndiceEnListaActiva(index)}
+                >
+                  {recuerdo.titulo}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
-          return (
-            <>
-              {recuerdosEnMismoLugar.length > 1 && (
-                <div className="lugar-compartido-aviso">
-                  Hay {recuerdosEnMismoLugar.length} recuerdos en este lugar.
-                </div>
-              )}
-              <h2>{recuerdoActual.titulo}</h2>
-            </>
-          );
-        })()}
-
+        {/* El resto del sidebar ahora muestra los detalles del 'recuerdoActual' */}
+        <h2>{recuerdoActual.titulo}</h2>
         <p className="sidebar-date">
           {recuerdoActual.fecha &&
             recuerdoActual.fecha.toDate().toLocaleDateString('es-ES', {
@@ -156,12 +163,13 @@ export default function Mapa() {
 
         <p className="sidebar-description">{recuerdoActual.descripcion}</p>
 
+        {/* Los botones de navegación ahora funcionan con la 'listaActiva' */}
         <div className="navigation-buttons">
-          <button onClick={irAnterior} disabled={recuerdos.length <= 1}>
+          <button onClick={irAnterior} disabled={listaActiva.length <= 1}>
             &larr; Anterior
           </button>
-          <span>{`${currentIndex + 1} / ${recuerdos.length}`}</span>
-          <button onClick={irSiguiente} disabled={recuerdos.length <= 1}>
+          <span>{`${indiceEnListaActiva + 1} / ${listaActiva.length}`}</span>
+          <button onClick={irSiguiente} disabled={listaActiva.length <= 1}>
             Siguiente &rarr;
           </button>
         </div>
