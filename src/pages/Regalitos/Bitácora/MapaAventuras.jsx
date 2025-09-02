@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import './Mapa.css';
 import { db } from '../../../firebase-config';
 import { collection, query, onSnapshot, orderBy } from 'firebase/firestore';
-import ImageCarousel from '../../components/ImageCarousel';
+import ImageCarousel from 'components/ImageCarrousel';
 
 // ... (configuración del icono de Leaflet sin cambios) ...
 delete L.Icon.Default.prototype._getIconUrl;
