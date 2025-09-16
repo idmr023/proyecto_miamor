@@ -1,23 +1,22 @@
-/* src/pages/Herramientas/ListaActividades/Actividades.css */
-
-.actividades-container {
+.regalos-container {
   min-height: 100vh;
-  background-color: #f0f2f5;
-  color: #1c1e21;
+  background-color: #fdf7fa; /* Un fondo rosa muy pálido */
+  color: #555;
   padding: 2rem;
 }
 
-.actividades-title {
+.regalos-title {
   text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 2rem;
-  color: #333;
+  color: #9d174d; /* Rosa oscuro */
 }
 
 .input-card {
   display: flex;
   gap: 1rem;
+  align-items: center;
   margin-bottom: 2rem;
   background-color: white;
   padding: 1.5rem;
@@ -33,21 +32,39 @@
   font-size: 1rem;
 }
 
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.input-group label {
+  font-weight: bold;
+  color: #555;
+}
+
+.input-group select {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
 .add-button {
   padding: 0.75rem 1.5rem;
   border: none;
-  background-color: #007bff;
-  color: white;
+  background-color: #ffb6c1; /* Rosa claro */
+  color: #8c1a45;
   font-weight: bold;
   border-radius: 0.5rem;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 .add-button:hover {
-  background-color: #0056b3;
+  background-color: #f7a2b2;
 }
 
-/* Tablero Kanban */
+/* Tablero Kanban (misma estructura) */
 .kanban-board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -55,7 +72,7 @@
 }
 
 .kanban-column {
-  background-color: #e9ecef;
+  background-color: #fff1f2; /* Rosa muy suave */
   border-radius: 0.75rem;
   padding: 1rem;
   display: flex;
@@ -64,66 +81,49 @@
 
 .column-title {
   font-weight: bold;
+  color: #9d174d;
   margin: 0 0 1rem 0;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #ced4da;
+  border-bottom: 2px solid #f9e1e9;
 }
 
 .column-content {
   flex-grow: 1;
-  min-height: 200px; /* Para que la zona de drop sea grande */
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
 }
 
-/* Estilos de cada item de la lista */
+/* Estilos de cada item de regalo */
 .item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 0.75rem;
   background-color: white;
   padding: 1rem;
   border-radius: 0.5rem;
+  border-left: 4px solid #ffb6c1; /* Borde rosa */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   cursor: grab;
-  transition: box-shadow 0.2s;
 }
 .item:active {
   cursor: grabbing;
 }
 
-.item-status-icon {
-  width: 24px;
-  height: 24px;
-  border: 2px solid #ced4da;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  color: #28a745;
-  transition: all 0.2s;
-  flex-shrink: 0;
+.kanban-column:nth-child(2) .item {
+  border-left-color: #87ceeb; /* Borde azul para Antok */
 }
-.item.completada .item-status-icon {
-  background-color: #28a745; /* Verde */
-  border-color: #28a745;
-  color: white;
-}
-.item:hover .item-status-icon {
-  transform: scale(1.1);
+.kanban-column:nth-child(3) .item {
+  border-left-color: #32cd32; /* Borde verde para conseguidos */
+  text-decoration: line-through;
+  color: #aaa;
 }
 
 .item-text {
   flex-grow: 1;
   word-break: break-word;
-}
-
-.item.completada .item-text {
-  text-decoration: line-through;
-  color: #6c757d;
 }
 
 .item-edit-input {

@@ -1,34 +1,21 @@
 import { Navbar } from 'components/NavBar/NavBar';
 import './Regalitos.css';
 import { BotonRedirec } from 'components/BotonRedireccionable/ButtonRedireccionable';
+import { rutasRegalitos } from 'App';
 
 export default function Regalitos() {
   return (
     <>
-    <Navbar/>
-    <div className="projects-container">
-      <h2 className="projects-title">Regalitos uwu</h2>
-        <BotonRedirec 
-          enlace={'/regalitos/cartita_conocernos'} 
-          texto={'Cartita de amor'}
-        />
-        <BotonRedirec 
-          enlace={'/regalitos/juega_amor'} 
-          texto={'Juega por mi amor'}
-        />
-        <BotonRedirec 
-          enlace={'/regalitos/lista'} 
-          texto={'Lista de actividades'}
-        />
-        <BotonRedirec 
-          enlace={'/regalitos/bitacora'} 
-          texto={'Bitácora'}
-        />
-        <BotonRedirec 
-          enlace={'/regalitos/metas'} 
-          texto={'Nuestras metas'}
-        />
-    </div>
+      <Navbar/>
+      <div className="projects-container">
+        {rutasRegalitos.map(ruta => (
+            <BotonRedirec 
+              key={ruta.path}
+              enlace={ruta.path} 
+              texto={ruta.name}
+            />
+          ))}
+      </div>
     </>
   );
 }
