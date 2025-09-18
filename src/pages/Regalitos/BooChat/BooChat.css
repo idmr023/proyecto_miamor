@@ -1,0 +1,133 @@
+/* src/components/BooChat/BooChat.css */
+
+/* Contenedor principal del chat, como la pantalla de un móvil */
+.chat-container {
+  max-width: 800px;
+  height: 80vh;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5ddd5; /* Fondo tipo WhatsApp */
+  /* background-image: url('/whatsapp-bg.png'); Opcional: añade una imagen de fondo en tu carpeta 'public' */
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chat-header {
+  background-color: #f0f2f5;
+  color: #1c1e21;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+}
+
+.message-list {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.message-row {
+  display: flex;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  align-self: flex-end;
+}
+
+.message-bubble {
+  max-width: 70%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.their-message {
+  justify-content: flex-start;
+}
+.their-message .message-bubble {
+  background-color: #ffffff;
+  border-top-left-radius: 0;
+}
+
+.my-message {
+  justify-content: flex-end;
+}
+.my-message .message-bubble {
+  background-color: #dcf8c6;
+  border-top-right-radius: 0;
+}
+
+.message-text {
+  margin: 0;
+  padding-bottom: 1.25rem; /* Espacio para que no se pise con la hora */
+  word-wrap: break-word;
+}
+
+.message-timestamp {
+  font-size: 0.7rem;
+  color: #667781; /* Gris de la hora de WhatsApp */
+  position: absolute; /* Posicionamiento absoluto */
+  bottom: 5px;      /* Abajo */
+  right: 10px;       /* A la derecha */
+}
+
+/* Separador de fecha */
+.date-separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.date-separator span {
+  background-color: #e9edef;
+  color: #54656f;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+}
+
+/* --- ESTILOS PARA MULTIMEDIA --- */
+.message-bubble.type-image,
+.message-bubble.type-video {
+  padding: 0.2rem;
+}
+
+.media-content {
+  border-radius: 0.6rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.chat-image,
+.chat-video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  color: #111b21;
+}
+
+.chat-audio {
+  width: 250px;
+  height: 40px;
+}

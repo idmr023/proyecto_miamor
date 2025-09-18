@@ -1,0 +1,3872 @@
+[
+  {
+    "id": 1,
+    "sender": "Ivan",
+    "createdAt": "2025-06-23T14:05:14.840Z",
+    "type": "text",
+    "content": "Hola, ¿qué tal, cómo estás?"
+  },
+  {
+    "id": 2,
+    "sender": "Antonella",
+    "createdAt": "2025-06-23T20:24:31.617Z",
+    "type": "text",
+    "content": "Holaa :3"
+  },
+  {
+    "id": 3,
+    "sender": "Antonella",
+    "createdAt": "2025-06-23T20:24:39.294Z",
+    "type": "text",
+    "content": "Bieeen, ando en clases aún"
+  },
+  {
+    "id": 4,
+    "sender": "Antonella",
+    "createdAt": "2025-06-23T20:24:42.442Z",
+    "type": "text",
+    "content": "Tú qué tal estás?"
+  },
+  {
+    "id": 5,
+    "sender": "Ivan",
+    "createdAt": "2025-06-24T01:16:04.429Z",
+    "type": "text",
+    "content": "Holi, ¿clases de?"
+  },
+  {
+    "id": 6,
+    "sender": "Ivan",
+    "createdAt": "2025-06-24T01:17:05.100Z",
+    "type": "text",
+    "content": "Yo saliendo del trabajo, me estoy yendo volando a la u para presentar una aplicación móvil"
+  },
+  {
+    "id": 7,
+    "sender": "Antonella",
+    "createdAt": "2025-06-24T03:52:53.335Z",
+    "type": "text",
+    "content": "Estaba en clases de educación en salud uu"
+  },
+  {
+    "id": 8,
+    "sender": "Antonella",
+    "createdAt": "2025-06-24T03:53:07.893Z",
+    "type": "text",
+    "content": "Vaya, en dónde trabajas y qué estudias?"
+  },
+  {
+    "id": 9,
+    "sender": "Ivan",
+    "createdAt": "2025-06-24T16:20:54.650Z",
+    "type": "text",
+    "content": "Ohhhh Yaya. Tú estás en San Marcos, ¿no?"
+  },
+  {
+    "id": 10,
+    "sender": "Ivan",
+    "createdAt": "2025-06-24T16:21:15.852Z",
+    "type": "text",
+    "content": "Trabajo como agente de atención al cliente trilingüe y estudio Ing. Software"
+  },
+  {
+    "id": 11,
+    "sender": "Ivan",
+    "createdAt": "2025-06-24T16:21:52.024Z",
+    "type": "image",
+    "content": "/images/chat/10.jpg",
+    "caption": "¡ Ivan te envió una foto!"
+  },
+  {
+    "id": 12,
+    "sender": "Ivan",
+    "createdAt": "2025-06-24T16:21:52.672Z",
+    "type": "text",
+    "content": "Hoy es mi día libre y aproveché para romper mi meta, 160kg con las piernas"
+  },
+  {
+    "id": 13,
+    "sender": "Ivan",
+    "createdAt": "2025-06-24T16:24:22.885Z",
+    "type": "text",
+    "content": "¿Qué tal tu martes?"
+  },
+  {
+    "id": 14,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T00:47:11.303Z",
+    "type": "text",
+    "content": "Siiii"
+  },
+  {
+    "id": 15,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T00:47:22.313Z",
+    "type": "text",
+    "content": "Qué bonito, vaya"
+  },
+  {
+    "id": 16,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T00:47:41.808Z",
+    "type": "text",
+    "content": "Bien, recién llego de clases"
+  },
+  {
+    "id": 17,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T00:47:44.412Z",
+    "type": "text",
+    "content": "Ando muerta"
+  },
+  {
+    "id": 18,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T00:47:47.406Z",
+    "type": "text",
+    "content": "Cansadita"
+  },
+  {
+    "id": 19,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T00:47:50.664Z",
+    "type": "text",
+    "content": "Tú qué tal?"
+  },
+  {
+    "id": 20,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T02:31:59.006Z",
+    "type": "text",
+    "content": "Wooow. Que chévere, SM fue mi primero opción pero por tiempo y porque no lanzaban exámenes, me metí a la UTP"
+  },
+  {
+    "id": 21,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T02:32:07.298Z",
+    "type": "text",
+    "content": "A veces no hay agua, pero se hace lo que se puede jajaja"
+  },
+  {
+    "id": 22,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T02:32:29.302Z",
+    "type": "text",
+    "content": "Sisisi, por ahí me puedo alinear a mi carrera"
+  },
+  {
+    "id": 23,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T02:33:52.213Z",
+    "type": "text",
+    "content": "Has tenido clases todo el día?"
+  },
+  {
+    "id": 24,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T03:21:55.557Z",
+    "type": "text",
+    "content": "Me imagino uu"
+  },
+  {
+    "id": 25,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T03:22:10.195Z",
+    "type": "text",
+    "content": "Jajajjaaj en SM siempre hay agua, lo que no hay es papel y jabón"
+  },
+  {
+    "id": 26,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T03:22:12.195Z",
+    "type": "text",
+    "content": "Escasean"
+  },
+  {
+    "id": 27,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T03:22:17.578Z",
+    "type": "text",
+    "content": "Siii"
+  },
+  {
+    "id": 28,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T03:22:21.960Z",
+    "type": "text",
+    "content": "Qué tal tú?"
+  },
+  {
+    "id": 29,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T04:37:53.187Z",
+    "type": "text",
+    "content": "Jajaja tmr"
+  },
+  {
+    "id": 30,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T04:39:47.406Z",
+    "type": "text",
+    "content": "Que forchi"
+  },
+  {
+    "id": 31,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T04:40:13.153Z",
+    "type": "text",
+    "content": "Después del gym fui a ver unos trámites en Entel, Full estudio y las clases si chéveres"
+  },
+  {
+    "id": 32,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T04:40:32.509Z",
+    "type": "text",
+    "content": "O sea el profe le encanta enseñar, siempre nos da más de lo que se espera. Un rey"
+  },
+  {
+    "id": 33,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T04:40:56.576Z",
+    "type": "text",
+    "content": "Mi siguiente clase todo lo contrario, el profe llega tarde y le llega altamente"
+  },
+  {
+    "id": 34,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T04:42:43.425Z",
+    "type": "text",
+    "content": "Qué es forchi? Uu"
+  },
+  {
+    "id": 35,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T04:43:09.203Z",
+    "type": "text",
+    "content": "Vaya, día ocupado"
+  },
+  {
+    "id": 36,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T04:43:42.345Z",
+    "type": "text",
+    "content": "Entiendo, esos profesores quitan las ganas de asistir a sus clases"
+  },
+  {
+    "id": 37,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T04:44:41.346Z",
+    "type": "text",
+    "content": "Es como \"que fuerte\" o así dice la chavisa"
+  },
+  {
+    "id": 38,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T04:45:30.901Z",
+    "type": "text",
+    "content": "Sipi, me gusta aprovechar mi día libre lo máximo posible"
+  },
+  {
+    "id": 39,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T04:46:21.408Z",
+    "type": "text",
+    "content": "Claro, claro. Encima inicia 40min después de lo que debería"
+  },
+  {
+    "id": 40,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T04:46:25.122Z",
+    "type": "text",
+    "content": "maldito onvre"
+  },
+  {
+    "id": 41,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T04:46:30.428Z",
+    "type": "text",
+    "content": "Jsjsjsks"
+  },
+  {
+    "id": 42,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T04:50:32.197Z",
+    "type": "text",
+    "content": "Le voy a poner 0 en su encuesta y tal vez una queja. No sé, me ando quejando de otros profes pero con razón siempre"
+  },
+  {
+    "id": 43,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T17:52:07.705Z",
+    "type": "text",
+    "content": "Ahhh jajaja no lo había escuchado"
+  },
+  {
+    "id": 44,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T17:52:20.551Z",
+    "type": "text",
+    "content": "Ay no, qué feo, eso ya es demasiado"
+  },
+  {
+    "id": 45,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T17:52:44.468Z",
+    "type": "text",
+    "content": "Onvrezzzzz la mayoría iguales"
+  },
+  {
+    "id": 46,
+    "sender": "Antonella",
+    "createdAt": "2025-06-25T17:52:58.688Z",
+    "type": "text",
+    "content": "Está perfecto, es tu derecho uu"
+  },
+  {
+    "id": 47,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T23:56:45.563Z",
+    "type": "text",
+    "content": "Nuevo termino aprendido"
+  },
+  {
+    "id": 48,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T23:57:13.058Z",
+    "type": "text",
+    "content": "Si pues, hay otro que tiene 6 clases faltantes. No seas abusivo pues"
+  },
+  {
+    "id": 49,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T23:57:16.297Z",
+    "type": "text",
+    "content": "Que horror"
+  },
+  {
+    "id": 50,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T23:57:57.692Z",
+    "type": "text",
+    "content": "Si pues, nos dejan mal parados a los hombres de verdad"
+  },
+  {
+    "id": 51,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T23:57:59.624Z",
+    "type": "text",
+    "content": "Terrible"
+  },
+  {
+    "id": 52,
+    "sender": "Ivan",
+    "createdAt": "2025-06-25T23:58:20.136Z",
+    "type": "text",
+    "content": "Si pos"
+  },
+  {
+    "id": 53,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T00:04:38.838Z",
+    "type": "text",
+    "content": "Hoy desarrollé un experimento social sin querer"
+  },
+  {
+    "id": 54,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T01:34:45.463Z",
+    "type": "text",
+    "content": "Ay qué feito"
+  },
+  {
+    "id": 55,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T01:34:58.994Z",
+    "type": "text",
+    "content": "Y eso que eres de universidad particular"
+  },
+  {
+    "id": 56,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T01:35:00.814Z",
+    "type": "text",
+    "content": "Waos"
+  },
+  {
+    "id": 57,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T01:35:30.393Z",
+    "type": "text",
+    "content": "Yo ya llegué a mi casita"
+  },
+  {
+    "id": 58,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T01:35:31.836Z",
+    "type": "text",
+    "content": "Ando muerta"
+  },
+  {
+    "id": 59,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T01:35:38.407Z",
+    "type": "text",
+    "content": "Y lo q sigue de eso"
+  },
+  {
+    "id": 60,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T01:36:04.981Z",
+    "type": "text",
+    "content": "Perfectamente esa exposición udo ser virtual pero NO 👺"
+  },
+  {
+    "id": 61,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T01:36:19.885Z",
+    "type": "text",
+    "content": "EL PROFESOR QUERÍA QUE ESTEMOS AHÍ"
+  },
+  {
+    "id": 62,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T01:36:22.150Z",
+    "type": "text",
+    "content": "CÓLERA ON"
+  },
+  {
+    "id": 63,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T03:24:15.557Z",
+    "type": "text",
+    "content": "Si, tiene sus defectos pero aciertos también so vamos por ahí"
+  },
+  {
+    "id": 64,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T03:26:21.257Z",
+    "type": "text",
+    "content": "Hay otro profe que si enseña hermoso o sea hasta lo que no dice el sílabus el enseña"
+  },
+  {
+    "id": 65,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T03:26:48.237Z",
+    "type": "text",
+    "content": "No hay solución. Hay que matarlo, ya fue"
+  },
+  {
+    "id": 66,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T03:26:52.823Z",
+    "type": "text",
+    "content": "Nah mentir jsjsjs"
+  },
+  {
+    "id": 67,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T03:27:03.195Z",
+    "type": "text",
+    "content": "Maldito profe"
+  },
+  {
+    "id": 68,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T03:27:08.500Z",
+    "type": "text",
+    "content": "Pero y qué tal te fue?"
+  },
+  {
+    "id": 69,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T03:27:39.219Z",
+    "type": "text",
+    "content": "Se perdió esto por aquí"
+  },
+  {
+    "id": 70,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T03:28:20.911Z",
+    "type": "text",
+    "content": "Todos los días tienes clases todo el día o ya no regresas por el tiempo?"
+  },
+  {
+    "id": 71,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T03:47:17.913Z",
+    "type": "text",
+    "content": "Me estaba quedando dormida, perdón"
+  },
+  {
+    "id": 72,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T03:47:39.973Z",
+    "type": "text",
+    "content": "Qué lindo, profes así valen la pena"
+  },
+  {
+    "id": 73,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T03:48:02.616Z",
+    "type": "text",
+    "content": "Bien, me dijo q estaba bien todo lo q hice"
+  },
+  {
+    "id": 74,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T03:48:11.806Z",
+    "type": "text",
+    "content": "De qué trataba? Uu"
+  },
+  {
+    "id": 75,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T03:48:24.050Z",
+    "type": "text",
+    "content": "Bueno mañana no tengo clases"
+  },
+  {
+    "id": 76,
+    "sender": "Antonella",
+    "createdAt": "2025-06-26T03:48:38.670Z",
+    "type": "text",
+    "content": "Aprovecharé en estudiar para mis exámenes uu"
+  },
+  {
+    "id": 77,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T21:52:57.195Z",
+    "type": "text",
+    "content": "Buenasss. Qué día más atareado"
+  },
+  {
+    "id": 78,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T21:53:09.005Z",
+    "type": "text",
+    "content": "Todo bien, pasas que cosan"
+  },
+  {
+    "id": 79,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T21:54:10.349Z",
+    "type": "text",
+    "content": "Realmente. A él si le voy a poner su 10 en al encuesta porque se lo merece de verdad"
+  },
+  {
+    "id": 80,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T21:54:34.929Z",
+    "type": "text",
+    "content": "Esoooooo. Genial"
+  },
+  {
+    "id": 81,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T21:55:21.611Z",
+    "type": "text",
+    "content": "Ayer hubo en evento Pride aquí y como no tengo masculinidad débil me hicieron un maquillaje en lado de la cara junto con otros amigos y así"
+  },
+  {
+    "id": 82,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T21:55:46.404Z",
+    "type": "text",
+    "content": "Solo que salí tan rápido que me olvidé de quitarmelo y la gente en la calle y buses me miraba, sentía sus miradas. Que horror"
+  },
+  {
+    "id": 83,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T21:55:51.437Z",
+    "type": "text",
+    "content": "Me puse mi capucha"
+  },
+  {
+    "id": 84,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T21:56:16.362Z",
+    "type": "text",
+    "content": "Tú tmb tienes la próxima semana?"
+  },
+  {
+    "id": 85,
+    "sender": "Ivan",
+    "createdAt": "2025-06-26T21:56:23.054Z",
+    "type": "text",
+    "content": "Que cursos se te dificulta más?"
+  },
+  {
+    "id": 86,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T00:19:43.110Z",
+    "type": "text",
+    "content": "Jajajaajaja vaya"
+  },
+  {
+    "id": 87,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T00:19:49.583Z",
+    "type": "text",
+    "content": "Tienes fotos? Jajajaja sorry"
+  },
+  {
+    "id": 88,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T00:19:52.232Z",
+    "type": "text",
+    "content": "Me dió mucha curiosidad"
+  },
+  {
+    "id": 89,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T00:20:11.148Z",
+    "type": "text",
+    "content": "Siii, exámenes, exposiciones y entregas de informes en todos los cursos"
+  },
+  {
+    "id": 90,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T00:20:24.398Z",
+    "type": "text",
+    "content": "Nutrición y alimentación en estados patológicos"
+  },
+  {
+    "id": 91,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T00:20:29.290Z",
+    "type": "text",
+    "content": "El resto es más llevadero uu"
+  },
+  {
+    "id": 92,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T03:59:32.256Z",
+    "type": "text",
+    "content": "Jajaja a ver ahora busco"
+  },
+  {
+    "id": 93,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T04:00:01.553Z",
+    "type": "text",
+    "content": "Aggg nooo. Yo igual, prácticas, informes, presentaciones de proyectos"
+  },
+  {
+    "id": 94,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T04:00:21.790Z",
+    "type": "text",
+    "content": "Todo bien pero en estados patológicos? Ahí si me mataste"
+  },
+  {
+    "id": 95,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T04:00:34.855Z",
+    "type": "text",
+    "content": "Yo sufro con Investigación Académica (Tesis I)"
+  },
+  {
+    "id": 96,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T04:02:17.253Z",
+    "type": "deleted",
+    "content": ""
+  },
+  {
+    "id": 97,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T04:03:01.636Z",
+    "type": "deleted",
+    "content": ""
+  },
+  {
+    "id": 98,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T04:03:55.720Z",
+    "type": "image",
+    "content": "/images/chat/97.jpg",
+    "caption": "¡ Ivan te envió una foto!"
+  },
+  {
+    "id": 99,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T04:04:00.794Z",
+    "type": "text",
+    "content": "A ver ahí creo que"
+  },
+  {
+    "id": 100,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T04:35:49.260Z",
+    "type": "text",
+    "content": "Es complejo y mucho"
+  },
+  {
+    "id": 101,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T04:35:57.552Z",
+    "type": "text",
+    "content": "Y más que yo quiero ser nutricionista clínica jajajaja"
+  },
+  {
+    "id": 102,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T04:36:01.824Z",
+    "type": "text",
+    "content": "Masoquista 🥲"
+  },
+  {
+    "id": 103,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T04:36:11.207Z",
+    "type": "text",
+    "content": "En qué ciclo estás? Uu"
+  },
+  {
+    "id": 104,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T04:36:20.078Z",
+    "type": "text",
+    "content": "Yo iré a mi recolección de datos para mi tesis en vacaciones"
+  },
+  {
+    "id": 105,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T04:36:29.284Z",
+    "type": "text",
+    "content": "De aquí a 3-4 semanitas"
+  },
+  {
+    "id": 106,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T04:36:38.816Z",
+    "type": "text",
+    "content": "Jajajajaa qué lindo maquillaje"
+  },
+  {
+    "id": 107,
+    "sender": "Antonella",
+    "createdAt": "2025-06-27T04:36:46.987Z",
+    "type": "text",
+    "content": "Ni yo 🗣️🫦"
+  },
+  {
+    "id": 108,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T21:57:23.933Z",
+    "type": "text",
+    "content": "Dios noo"
+  },
+  {
+    "id": 109,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T21:57:36.759Z",
+    "type": "text",
+    "content": "Que significa eso"
+  },
+  {
+    "id": 110,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T21:57:48.700Z",
+    "type": "text",
+    "content": "Mas complejo o cómo?"
+  },
+  {
+    "id": 111,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T21:58:02.878Z",
+    "type": "text",
+    "content": "Noveno"
+  },
+  {
+    "id": 112,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T21:58:09.372Z",
+    "type": "text",
+    "content": "Se puso a llover de nuevo"
+  },
+  {
+    "id": 113,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T21:58:21.395Z",
+    "type": "text",
+    "content": "En un momento te termino de contestar, se acabó mi break"
+  },
+  {
+    "id": 114,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T23:27:06.048Z",
+    "type": "text",
+    "content": "Ohhhh que genial. Tesis? Waos, palabras mayores"
+  },
+  {
+    "id": 115,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T23:27:20.490Z",
+    "type": "text",
+    "content": "Yo estoy llevando la primera parte de tesis, que se supone es más suave"
+  },
+  {
+    "id": 116,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T23:28:11.176Z",
+    "type": "text",
+    "content": "Y ya sabes de qué vas hacer tu tesis?"
+  },
+  {
+    "id": 117,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T23:28:52.170Z",
+    "type": "text",
+    "content": "Si, ¿verdad? Quedó espectacular jsjsjs"
+  },
+  {
+    "id": 118,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T23:29:02.125Z",
+    "type": "text",
+    "content": "Jajajajajaja"
+  },
+  {
+    "id": 119,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T23:29:21.407Z",
+    "type": "text",
+    "content": "Intenté hacer esa combinación de emojis y me quedé todo raro ahí jsjs"
+  },
+  {
+    "id": 120,
+    "sender": "Ivan",
+    "createdAt": "2025-06-27T23:39:04.912Z",
+    "type": "text",
+    "content": "Hoy pagaron! Yei"
+  },
+  {
+    "id": 121,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T00:53:58.262Z",
+    "type": "text",
+    "content": "Llegando a mi casita te explico mejor en audio"
+  },
+  {
+    "id": 122,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T00:55:24.804Z",
+    "type": "text",
+    "content": "Waos, estás a nadota de terminar"
+  },
+  {
+    "id": 123,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T00:55:53.408Z",
+    "type": "text",
+    "content": "Siiii"
+  },
+  {
+    "id": 124,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T00:56:03.652Z",
+    "type": "text",
+    "content": "Claro, ya la estoy haciendo"
+  },
+  {
+    "id": 125,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T00:56:11.800Z",
+    "type": "text",
+    "content": "En vacaciones viajo a Iquitos para la toma de datos"
+  },
+  {
+    "id": 126,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T00:56:15.700Z",
+    "type": "text",
+    "content": "Se titula"
+  },
+  {
+    "id": 127,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T00:56:27.274Z",
+    "type": "text",
+    "content": "Factores sociodemográficos y económicos asociados a la inseguridad alimentaria en hogares de Iquitos"
+  },
+  {
+    "id": 128,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T00:56:50.677Z",
+    "type": "text",
+    "content": "Es parte de un proyecto de investigación de mi facultad :3"
+  },
+  {
+    "id": 129,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T00:57:51.243Z",
+    "type": "text",
+    "content": "Siii"
+  },
+  {
+    "id": 130,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T00:58:03.052Z",
+    "type": "text",
+    "content": "Provechito :3"
+  },
+  {
+    "id": 131,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T02:38:37.476Z",
+    "type": "text",
+    "content": "Me parece bien"
+  },
+  {
+    "id": 132,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T02:39:20.155Z",
+    "type": "text",
+    "content": "Siiii. Que miedo pero a la vez alegría. Ojalá se pueda, hay un curso que está que me jode, lo daré todo"
+  },
+  {
+    "id": 133,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T02:40:40.459Z",
+    "type": "text",
+    "content": "Oye que genial título, se escucha interesante y eso de viajar in situ se escucha aún más interesante"
+  },
+  {
+    "id": 134,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T02:41:34.559Z",
+    "type": "text",
+    "content": "Por nada del mundo nunca, saques una tarjeta de crédito jaja, es un martirio. Pero bueno, hoy día he pagado un montón de cosas"
+  },
+  {
+    "id": 135,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T02:42:08.658Z",
+    "type": "text",
+    "content": "Tenía otros gastos con amigos y así"
+  },
+  {
+    "id": 136,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T02:42:15.373Z",
+    "type": "text",
+    "content": "Me quedo un poquito para ahorrar"
+  },
+  {
+    "id": 137,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T02:42:23.356Z",
+    "type": "text",
+    "content": "Lo bueno es que el aumento me está ayudando a sobrellevar"
+  },
+  {
+    "id": 138,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T02:42:59.293Z",
+    "type": "text",
+    "content": "Me senti todo slay y la queso jajaja tmb nos sacaron fotos con una Drag Queen, todo muy inclusivo"
+  },
+  {
+    "id": 139,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T02:43:29.986Z",
+    "type": "text",
+    "content": "No soy gay, pero si me considero pro-lgtbq o sea que sean felices con quienes quieran"
+  },
+  {
+    "id": 140,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T03:04:30.266Z",
+    "type": "text",
+    "content": "En un ratito te lo mando uu"
+  },
+  {
+    "id": 141,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T03:04:48.418Z",
+    "type": "text",
+    "content": "Estoy en una reunión meet"
+  },
+  {
+    "id": 142,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T03:06:54.053Z",
+    "type": "text",
+    "content": "Jajajaaja anotado ese consejito"
+  },
+  {
+    "id": 143,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T03:07:10.014Z",
+    "type": "text",
+    "content": "Qué bonitoooooo"
+  },
+  {
+    "id": 144,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T03:07:17.455Z",
+    "type": "text",
+    "content": "Yo nunca he visto una drag Queen en persona"
+  },
+  {
+    "id": 145,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T03:07:28.534Z",
+    "type": "text",
+    "content": "Eso es bonito, dice mucho de ti"
+  },
+  {
+    "id": 146,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T03:07:33.607Z",
+    "type": "text",
+    "content": "Hay personas intolerantes"
+  },
+  {
+    "id": 147,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T04:35:13.392Z",
+    "type": "text",
+    "content": "Está bien, no problem"
+  },
+  {
+    "id": 148,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T04:35:39.336Z",
+    "type": "text",
+    "content": "Realmente. Y yo con dos tarjetas, una ya pagada casi del todo y la otra bueno ahí vamos jajaja"
+  },
+  {
+    "id": 149,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T04:36:14.197Z",
+    "type": "text",
+    "content": "Sisisisi y era todo un personaje o una, no estoy seguro pero estuvo chévere"
+  },
+  {
+    "id": 150,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T04:36:39.519Z",
+    "type": "text",
+    "content": "Aunque el del año pasado fue más ambientado, esta vez le tuvieron miedo al éxito"
+  },
+  {
+    "id": 151,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T04:39:27.639Z",
+    "type": "text",
+    "content": "Es chévere, recomendable"
+  },
+  {
+    "id": 152,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T04:40:28.881Z",
+    "type": "text",
+    "content": "Gracias c:"
+  },
+  {
+    "id": 153,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T04:40:52.881Z",
+    "type": "text",
+    "content": "Si ps, malditos sean"
+  },
+  {
+    "id": 154,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T04:41:23.148Z",
+    "type": "text",
+    "content": "Mañana es la marcha, ¿no? Yo iba ir con amigos pero me salió una reu importante"
+  },
+  {
+    "id": 155,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T04:41:31.776Z",
+    "type": "text",
+    "content": "De qué es tu meet btw?"
+  },
+  {
+    "id": 156,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T17:32:15.755Z",
+    "type": "audio",
+    "content": "/audio/chat/155.aac"
+  },
+  {
+    "id": 157,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T17:35:53.039Z",
+    "type": "audio",
+    "content": "/audio/chat/156.aac"
+  },
+  {
+    "id": 158,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T17:37:56.175Z",
+    "type": "audio",
+    "content": "/audio/chat/157.aac"
+  },
+  {
+    "id": 159,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T19:54:27.883Z",
+    "type": "text",
+    "content": "Gracias por la explicación, no entendí mucho pero me encantó que me explicaras jajaja"
+  },
+  {
+    "id": 160,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T19:55:09.500Z",
+    "type": "text",
+    "content": "Yo tuve que ir con un nutricionista porque quería subir de peso y si me ayudó muchísimo:D"
+  },
+  {
+    "id": 161,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T19:56:13.624Z",
+    "type": "text",
+    "content": "Como experiencia si sería chévere, también lo hubiera sido para mí, pero como te dije no podré ir :("
+  },
+  {
+    "id": 162,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T19:56:48.196Z",
+    "type": "text",
+    "content": "Te hablo al rato, ya debo entrar a chambear"
+  },
+  {
+    "id": 163,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T19:56:50.011Z",
+    "type": "text",
+    "content": "Suertee"
+  },
+  {
+    "id": 164,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T21:10:02.465Z",
+    "type": "text",
+    "content": "Suerte en el trabajo:)"
+  },
+  {
+    "id": 165,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T21:22:49.457Z",
+    "type": "audio",
+    "content": "/audio/chat/164.aac"
+  },
+  {
+    "id": 166,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T21:25:52.229Z",
+    "type": "audio",
+    "content": "/audio/chat/165.aac"
+  },
+  {
+    "id": 167,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T21:26:44.438Z",
+    "type": "audio",
+    "content": "/audio/chat/166.aac"
+  },
+  {
+    "id": 168,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T21:29:37.242Z",
+    "type": "audio",
+    "content": "/audio/chat/167.aac"
+  },
+  {
+    "id": 169,
+    "sender": "Ivan",
+    "createdAt": "2025-06-28T21:31:03.992Z",
+    "type": "audio",
+    "content": "/audio/chat/168.aac"
+  },
+  {
+    "id": 170,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T23:57:41.185Z",
+    "type": "text",
+    "content": "En un ratico te respondo uu"
+  },
+  {
+    "id": 171,
+    "sender": "Antonella",
+    "createdAt": "2025-06-28T23:57:44.743Z",
+    "type": "text",
+    "content": "Estoy camino al gimnasio"
+  },
+  {
+    "id": 172,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T00:53:58.710Z",
+    "type": "text",
+    "content": "Omggg también vas al gym aparte de estudiar? Que completa, increíble"
+  },
+  {
+    "id": 173,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T01:16:49.459Z",
+    "type": "text",
+    "content": "Jajajaja gracias"
+  },
+  {
+    "id": 174,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T01:16:54.024Z",
+    "type": "text",
+    "content": "Ya estoy a mitad de rutina"
+  },
+  {
+    "id": 175,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T01:16:59.074Z",
+    "type": "text",
+    "content": "Terminó y te respondo"
+  },
+  {
+    "id": 176,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T02:54:23.122Z",
+    "type": "text",
+    "content": "Ellaaaaaaaa"
+  },
+  {
+    "id": 177,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T02:59:23.621Z",
+    "type": "text",
+    "content": "Hoy que toca?"
+  },
+  {
+    "id": 178,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T02:59:30.844Z",
+    "type": "text",
+    "content": "Ta bueno"
+  },
+  {
+    "id": 179,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:25:44.532Z",
+    "type": "audio",
+    "content": "/audio/chat/178.aac"
+  },
+  {
+    "id": 180,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:26:24.820Z",
+    "type": "audio",
+    "content": "/audio/chat/179.aac"
+  },
+  {
+    "id": 181,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:36:07.958Z",
+    "type": "text",
+    "content": "No me gustó el juego del calamar"
+  },
+  {
+    "id": 182,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:36:16.012Z",
+    "type": "text",
+    "content": "La forma en que terminó"
+  },
+  {
+    "id": 183,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:36:18.639Z",
+    "type": "text",
+    "content": "Muchas muertes"
+  },
+  {
+    "id": 184,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:36:20.739Z",
+    "type": "text",
+    "content": "Inesperadas"
+  },
+  {
+    "id": 185,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:36:21.976Z",
+    "type": "text",
+    "content": "Feas"
+  },
+  {
+    "id": 186,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:36:23.662Z",
+    "type": "text",
+    "content": "Trastes"
+  },
+  {
+    "id": 187,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:36:26.601Z",
+    "type": "text",
+    "content": "Lloré con una"
+  },
+  {
+    "id": 188,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:37:14.388Z",
+    "type": "text",
+    "content": "Muslitos"
+  },
+  {
+    "id": 189,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:37:49.239Z",
+    "type": "text",
+    "content": "Okis, mi cel está cargando, no me sé mi número xd, que cargue y te lo pasooo, ahorita estoy desde mi tab"
+  },
+  {
+    "id": 190,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:53:25.924Z",
+    "type": "text",
+    "content": "Buenass"
+  },
+  {
+    "id": 191,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:53:57.562Z",
+    "type": "text",
+    "content": "Mido 1.85 y peso algo de 74kg (ojalá se haya mantenido así jajaja)"
+  },
+  {
+    "id": 192,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:55:13.663Z",
+    "type": "text",
+    "content": "Jajaja está bien yo tmp soy chismoso jsjsj"
+  },
+  {
+    "id": 193,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:55:33.728Z",
+    "type": "text",
+    "content": "Un perrito uwu, tmb tengo una mascota, una perrita llamada Sashita"
+  },
+  {
+    "id": 194,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:56:16.131Z",
+    "type": "text",
+    "content": "Rodolfo? Un rey jsjs"
+  },
+  {
+    "id": 195,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:56:56.122Z",
+    "type": "text",
+    "content": "Trabajo en un Call Center en esteroides y tengo breaks cortos, mi almuerzo y habde ahí soy libre"
+  },
+  {
+    "id": 196,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:57:26.145Z",
+    "type": "text",
+    "content": "Nooo me digas eso. Quería verla pero después de eso, me lo pensaré dos veces"
+  },
+  {
+    "id": 197,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:58:33.445Z",
+    "type": "text",
+    "content": "Ella esooooo"
+  },
+  {
+    "id": 198,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:58:43.631Z",
+    "type": "text",
+    "content": "Okis dokis, no wo"
+  },
+  {
+    "id": 199,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:59:09.875Z",
+    "type": "text",
+    "content": "Del trabajo me salté un toque a la u para avanzar unas cosas, de ahí vine acá"
+  },
+  {
+    "id": 200,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:59:16.703Z",
+    "type": "text",
+    "content": "Y pues ahora estamos tomando mientras hablamos"
+  },
+  {
+    "id": 201,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:59:47.737Z",
+    "type": "image",
+    "content": "/images/chat/200.jpg",
+    "caption": "¡ Ivan te envió una foto!"
+  },
+  {
+    "id": 202,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T03:59:48.026Z",
+    "type": "text",
+    "content": "Está alto"
+  },
+  {
+    "id": 203,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T03:59:48.714Z",
+    "type": "text",
+    "content": "Dios mío"
+  },
+  {
+    "id": 204,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:00:04.197Z",
+    "type": "text",
+    "content": "Eres alto"
+  },
+  {
+    "id": 205,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:00:06.693Z",
+    "type": "text",
+    "content": "Mucho"
+  },
+  {
+    "id": 206,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:00:59.845Z",
+    "type": "text",
+    "content": "Es de raza chiquita o grande?"
+  },
+  {
+    "id": 207,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:01:22.489Z",
+    "type": "text",
+    "content": "Jajaja yo le puse Rodolfo por Rodolfo el reno, es un salchicha marrón"
+  },
+  {
+    "id": 208,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:01:56.455Z",
+    "type": "text",
+    "content": "Bueno, estoy premestrual, ando sensible, yo lloré, puede que tú no"
+  },
+  {
+    "id": 209,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:02:21.945Z",
+    "type": "text",
+    "content": "Ahhh verdad a la casa de tu amiga, creo, cierto? Eso entendí por el audio"
+  },
+  {
+    "id": 210,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:02:28.723Z",
+    "type": "text",
+    "content": "Altote"
+  },
+  {
+    "id": 211,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:08:59.927Z",
+    "type": "text",
+    "content": "Siiii jajaja soy alto, así es. Y muy pronto mamadisimo también (si no me desgarro algo antes xddd)"
+  },
+  {
+    "id": 212,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:09:42.012Z",
+    "type": "text",
+    "content": "Es un Bichón Frisé. Una reina, super humilde y linda. Bella, bella, bella"
+  },
+  {
+    "id": 213,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:12:27.684Z",
+    "type": "text",
+    "content": "Ah bueno, ta fuerte. Puede que no, en efecto, pero si se van a poner matar a lo loco, a lo Grey's Anatomy. Entonces ñeeee gracias"
+  },
+  {
+    "id": 214,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:12:41.344Z",
+    "type": "text",
+    "content": "JAJAJAJA qué buen nombre"
+  },
+  {
+    "id": 215,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:12:58.624Z",
+    "type": "text",
+    "content": "Sep, estamos celebrando el cumple de un pana"
+  },
+  {
+    "id": 216,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:13:37.734Z",
+    "type": "text",
+    "content": "Tengo hambre. No he cenado nada y estoy que me muero de hambre"
+  },
+  {
+    "id": 217,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:13:50.310Z",
+    "type": "text",
+    "content": "Piso 21, forchii"
+  },
+  {
+    "id": 218,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:14:13.894Z",
+    "type": "text",
+    "content": "Hoy fue un buen día, productivo. Qué tal tu qué has hecho en tu sábado?"
+  },
+  {
+    "id": 219,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:14:19.346Z",
+    "type": "text",
+    "content": "Verdad a que gym vas?"
+  },
+  {
+    "id": 220,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:22:48.046Z",
+    "type": "text",
+    "content": "No me lo esperaba jajajaja"
+  },
+  {
+    "id": 221,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:23:18.444Z",
+    "type": "text",
+    "content": "Es una raza de perritos muy lindaaaaa"
+  },
+  {
+    "id": 222,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:23:43.487Z",
+    "type": "text",
+    "content": "No es comercial, es uno de por mi casita"
+  },
+  {
+    "id": 223,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:24:00.832Z",
+    "type": "text",
+    "content": "Entrenar, cocinar y hacer unas cositas de la universidad"
+  },
+  {
+    "id": 224,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:24:22.035Z",
+    "type": "text",
+    "content": "Jajaja ya te darán algo, no hay celebración buena, sin comida"
+  },
+  {
+    "id": 225,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:24:47.823Z",
+    "type": "text",
+    "content": "Entonces hablamos después, si te parece, disfruta :)"
+  },
+  {
+    "id": 226,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T04:25:09.768Z",
+    "type": "text",
+    "content": "Pásala bonito"
+  },
+  {
+    "id": 227,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:57:02.174Z",
+    "type": "text",
+    "content": "La altura? Jskqjsks"
+  },
+  {
+    "id": 228,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:58:27.566Z",
+    "type": "text",
+    "content": "Siiiii es hermosa y muy cariñosa. También bien curiosa"
+  },
+  {
+    "id": 229,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:58:31.222Z",
+    "type": "text",
+    "content": "Qué tal el Rodolfo"
+  },
+  {
+    "id": 230,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T04:59:45.447Z",
+    "type": "text",
+    "content": "Ahh vale, ta bien"
+  },
+  {
+    "id": 231,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T05:17:37.583Z",
+    "type": "text",
+    "content": "Y si, hubo pizza y cómo llego una caca pedimos reembolso y compramos más comida"
+  },
+  {
+    "id": 232,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T07:23:26.415Z",
+    "type": "text",
+    "content": "Además de eso comimos pollo a la brasa más chaufa y papas, todo acompañado de su traguito. Recién llego a mi casa pero valió cada maldito segundo, como el meme"
+  },
+  {
+    "id": 233,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T12:53:47.135Z",
+    "type": "audio",
+    "content": "/audio/chat/232.aac"
+  },
+  {
+    "id": 234,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:42:05.012Z",
+    "type": "text",
+    "content": "Siii"
+  },
+  {
+    "id": 235,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:42:17.989Z",
+    "type": "text",
+    "content": "Es como un bebé"
+  },
+  {
+    "id": 236,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:42:30.880Z",
+    "type": "text",
+    "content": "Se duerme en la cama con mis papás"
+  },
+  {
+    "id": 237,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:42:34.303Z",
+    "type": "text",
+    "content": "Es dependiente"
+  },
+  {
+    "id": 238,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:42:38.733Z",
+    "type": "text",
+    "content": "Llora cuando se queda solito"
+  },
+  {
+    "id": 239,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:42:42.857Z",
+    "type": "text",
+    "content": "Llora cuando quiere algo"
+  },
+  {
+    "id": 240,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:43:22.155Z",
+    "type": "text",
+    "content": "Te ladra feo cuando no haces lo que quiere"
+  },
+  {
+    "id": 241,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:43:26.182Z",
+    "type": "text",
+    "content": "Es engreido"
+  },
+  {
+    "id": 242,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:43:29.898Z",
+    "type": "text",
+    "content": "Le gusta que lo acaricies"
+  },
+  {
+    "id": 243,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:43:36.151Z",
+    "type": "text",
+    "content": "Cuando tiene miedo te pide que lo cargues"
+  },
+  {
+    "id": 244,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:43:41.568Z",
+    "type": "text",
+    "content": "Es un hermanito menor jajajja"
+  },
+  {
+    "id": 245,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:43:46.939Z",
+    "type": "text",
+    "content": "Y buenas tardes por cierto uu"
+  },
+  {
+    "id": 246,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:44:11.063Z",
+    "type": "text",
+    "content": "Vaya, entonces sí te divertiste"
+  },
+  {
+    "id": 247,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:44:13.908Z",
+    "type": "text",
+    "content": "Qué bonito"
+  },
+  {
+    "id": 248,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:45:07.003Z",
+    "type": "text",
+    "content": "Vaya"
+  },
+  {
+    "id": 249,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T17:45:10.367Z",
+    "type": "text",
+    "content": "Suerte en la chamba :)"
+  },
+  {
+    "id": 250,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T19:29:03.262Z",
+    "type": "text",
+    "content": "Buenasss"
+  },
+  {
+    "id": 251,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T19:29:26.806Z",
+    "type": "text",
+    "content": "Ay qué lindo jajaja tan adorable el nene jsjsjs"
+  },
+  {
+    "id": 252,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T19:29:49.149Z",
+    "type": "text",
+    "content": "Pobrecito jsjsj"
+  },
+  {
+    "id": 253,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T19:33:11.420Z",
+    "type": "text",
+    "content": "Un rey el Rodolfo"
+  },
+  {
+    "id": 254,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T19:33:26.874Z",
+    "type": "text",
+    "content": "Tmb se queda a tu lado cada ves que comes?"
+  },
+  {
+    "id": 255,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T19:33:48.159Z",
+    "type": "text",
+    "content": "Es un lindoooooo"
+  },
+  {
+    "id": 256,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T19:35:12.565Z",
+    "type": "text",
+    "content": "Es una de mis cartas sorpresa jeje"
+  },
+  {
+    "id": 257,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T19:35:24.489Z",
+    "type": "text",
+    "content": "Fantabuloso"
+  },
+  {
+    "id": 258,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T19:35:32.516Z",
+    "type": "text",
+    "content": "Graciasssss asss"
+  },
+  {
+    "id": 259,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T19:35:37.608Z",
+    "type": "text",
+    "content": "https://www.instagram.com/reel/DKj3jOIzGOX/?igsh=MTl0cjV3am42MzZlcQ=="
+  },
+  {
+    "id": 260,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T19:58:53.293Z",
+    "type": "text",
+    "content": "Y cuánto años tiene el Rodolfo?"
+  },
+  {
+    "id": 261,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T20:21:26.844Z",
+    "type": "text",
+    "content": "Jajaja ya te comencé a seguir en IG"
+  },
+  {
+    "id": 262,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T20:21:41.835Z",
+    "type": "text",
+    "content": "Siiiii"
+  },
+  {
+    "id": 263,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T20:22:17.743Z",
+    "type": "text",
+    "content": "Él desayuna un pancito, pero yo desayuno en la mesa y me rasca la pierna para que me apure porque él come su pan en el sillón y le gusta que lo acompañen"
+  },
+  {
+    "id": 264,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T20:22:33.301Z",
+    "type": "text",
+    "content": "Ya tiene 6 añitos"
+  },
+  {
+    "id": 265,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T20:22:41.816Z",
+    "type": "text",
+    "content": "Pero yo sigo creyendo que es recién nacido uu"
+  },
+  {
+    "id": 266,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T22:32:20.298Z",
+    "type": "text",
+    "content": "Jajajaja procederé a enviarte los reels que encuentre, serán super randoms"
+  },
+  {
+    "id": 267,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T22:32:25.319Z",
+    "type": "text",
+    "content": "Es más ya te envié uno jsjs"
+  },
+  {
+    "id": 268,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T22:32:57.294Z",
+    "type": "text",
+    "content": "Y cómo así? Sale como en tik tok, tipo \"está cuenta ha compartido contigo\""
+  },
+  {
+    "id": 269,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T22:35:04.330Z",
+    "type": "text",
+    "content": "Así?"
+  },
+  {
+    "id": 270,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T22:35:18.792Z",
+    "type": "text",
+    "content": "Owwww pero que lindooo jakajaks"
+  },
+  {
+    "id": 271,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T22:35:23.719Z",
+    "type": "text",
+    "content": "La Sasha es bien similar"
+  },
+  {
+    "id": 272,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T22:35:29.775Z",
+    "type": "text",
+    "content": "A ella casi que la rescatamos"
+  },
+  {
+    "id": 273,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T22:35:45.744Z",
+    "type": "text",
+    "content": "Ya es un joven waos"
+  },
+  {
+    "id": 274,
+    "sender": "Ivan",
+    "createdAt": "2025-06-29T22:35:55.901Z",
+    "type": "text",
+    "content": "Jajajakkakaka"
+  },
+  {
+    "id": 275,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T22:48:59.185Z",
+    "type": "text",
+    "content": "Siiii, tal cual"
+  },
+  {
+    "id": 276,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T22:49:20.330Z",
+    "type": "text",
+    "content": "Cómo así? :0"
+  },
+  {
+    "id": 277,
+    "sender": "Antonella",
+    "createdAt": "2025-06-29T22:49:26.647Z",
+    "type": "text",
+    "content": "Un bebé cachorro"
+  },
+  {
+    "id": 278,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T01:16:30.490Z",
+    "type": "text",
+    "content": "Ohhhh no Avaí ajanajs"
+  },
+  {
+    "id": 279,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T01:16:34.655Z",
+    "type": "text",
+    "content": "Jsjsjs"
+  },
+  {
+    "id": 280,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T01:17:11.956Z",
+    "type": "audio",
+    "content": "/audio/chat/279.aac"
+  },
+  {
+    "id": 281,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T01:18:23.722Z",
+    "type": "audio",
+    "content": "/audio/chat/280.aac"
+  },
+  {
+    "id": 282,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T01:22:31.984Z",
+    "type": "audio",
+    "content": "/audio/chat/281.aac"
+  },
+  {
+    "id": 283,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T01:23:30.196Z",
+    "type": "audio",
+    "content": "/audio/chat/282.aac"
+  },
+  {
+    "id": 284,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T01:24:25.962Z",
+    "type": "deleted",
+    "content": ""
+  },
+  {
+    "id": 285,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T01:25:11.674Z",
+    "type": "text",
+    "content": "Que frío hace"
+  },
+  {
+    "id": 286,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T01:30:20.481Z",
+    "type": "text",
+    "content": "Siento que soy hablando mucho ajwidnd. Cuéntame sobre ti, cosas que toda persona se recién te conoce debería saber"
+  },
+  {
+    "id": 287,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T01:57:12.712Z",
+    "type": "text",
+    "content": "Jajaaja qué? No entendí"
+  },
+  {
+    "id": 288,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T01:58:02.139Z",
+    "type": "text",
+    "content": "Jajajaja noo pobrecito"
+  },
+  {
+    "id": 289,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T01:58:07.573Z",
+    "type": "text",
+    "content": "Todo cansado"
+  },
+  {
+    "id": 290,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:03:36.768Z",
+    "type": "text",
+    "content": "Waos"
+  },
+  {
+    "id": 291,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:03:45.119Z",
+    "type": "text",
+    "content": "Qué lindo que te preocupes tanto por tu perrita"
+  },
+  {
+    "id": 292,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:03:50.508Z",
+    "type": "text",
+    "content": "Yo sé que sí entienden xd"
+  },
+  {
+    "id": 293,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:04:19.603Z",
+    "type": "text",
+    "content": "O por lo menos son conscientes de que intentas comunicarte con ellos porque a veces prestan atención uu"
+  },
+  {
+    "id": 294,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:04:38.966Z",
+    "type": "text",
+    "content": "Y totalmente normal que sientas miedo de esterilizarla"
+  },
+  {
+    "id": 295,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:04:54.776Z",
+    "type": "text",
+    "content": "Yo solo he visto un caso en donde la operación de esterilización salió mal"
+  },
+  {
+    "id": 296,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:05:32.365Z",
+    "type": "text",
+    "content": "Pero era una perrita que no era mía"
+  },
+  {
+    "id": 297,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:05:41.016Z",
+    "type": "text",
+    "content": "Me dió mucha pena y era feito lo que le había pasado"
+  },
+  {
+    "id": 298,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:06:03.261Z",
+    "type": "text",
+    "content": "Ya otras perritas que ví que esterilizaron, como las perritas de mi abuelita, todo normal"
+  },
+  {
+    "id": 299,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:06:14.384Z",
+    "type": "text",
+    "content": "Si les das los cuidados necesarios, todo pasa rápido:)"
+  },
+  {
+    "id": 300,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:06:28.002Z",
+    "type": "text",
+    "content": "Jajajajajajaja, no, no, está bien"
+  },
+  {
+    "id": 301,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:06:41.356Z",
+    "type": "text",
+    "content": "Me gusta escuchar"
+  },
+  {
+    "id": 302,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:06:49.696Z",
+    "type": "text",
+    "content": "Me gusta saber"
+  },
+  {
+    "id": 303,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T02:07:01.316Z",
+    "type": "text",
+    "content": "Qué quisieras saber de mí?"
+  },
+  {
+    "id": 304,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T02:50:05.803Z",
+    "type": "text",
+    "content": "No sabía* el dedo se me fue jqksjsks"
+  },
+  {
+    "id": 305,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T02:53:41.553Z",
+    "type": "text",
+    "content": "Siii Dios jskakkss pero bueno, todo sea por el pago triple"
+  },
+  {
+    "id": 306,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T02:54:52.717Z",
+    "type": "text",
+    "content": "Siii, se ha vuelto un pieza fundamental. Es toda una reina"
+  },
+  {
+    "id": 307,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T02:55:32.466Z",
+    "type": "text",
+    "content": "Es ciertoooo, es muy cierto uwu"
+  },
+  {
+    "id": 308,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T02:56:16.511Z",
+    "type": "text",
+    "content": "Son bastante inteligentes, curiosos y se nota que están prestando atención"
+  },
+  {
+    "id": 309,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T02:57:32.964Z",
+    "type": "text",
+    "content": "Ay no :c"
+  },
+  {
+    "id": 310,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T02:57:36.524Z",
+    "type": "text",
+    "content": "Pobrecita"
+  },
+  {
+    "id": 311,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T03:03:57.842Z",
+    "type": "text",
+    "content": "Esooo. Vamos a ver creo que este año se puede hacer antes que sea más difícil la operación, Sashita va creciendo"
+  },
+  {
+    "id": 312,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T03:06:02.170Z",
+    "type": "text",
+    "content": "Esooo"
+  },
+  {
+    "id": 313,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T03:09:13.693Z",
+    "type": "text",
+    "content": "Yei. Temía estar hablando too much, pero genial si no es así"
+  },
+  {
+    "id": 314,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T03:09:37.017Z",
+    "type": "text",
+    "content": "Esooo"
+  },
+  {
+    "id": 315,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T03:13:12.948Z",
+    "type": "text",
+    "content": "Cosas básicas. Gustos, disgustos, preferencias, cómo elegiste nutrición, que haces en Boo y que buscas, algo que consideres relevantes saber"
+  },
+  {
+    "id": 316,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T03:15:14.175Z",
+    "type": "text",
+    "content": "Que miedo, el celular de mi mamá me llamó por si solo y no tiene ningún asistente de voz ni nada. Por si solo, ¿Poltergeist?"
+  },
+  {
+    "id": 317,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T03:45:07.436Z",
+    "type": "text",
+    "content": "Siii, además, se nota que la cuidas muchísimo, dudo demasiado que algo pase"
+  },
+  {
+    "id": 318,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T03:45:26.351Z",
+    "type": "text",
+    "content": "Me gustan las cosas rosadas"
+  },
+  {
+    "id": 319,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T03:45:33.177Z",
+    "type": "text",
+    "content": "Amo los postres, sobretodo, los alfajores"
+  },
+  {
+    "id": 320,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T03:45:57.717Z",
+    "type": "text",
+    "content": "Me encantan las floreeeeeeees, puedo quedarme viéndolas mucho tiempo"
+  },
+  {
+    "id": 321,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T03:46:04.341Z",
+    "type": "text",
+    "content": "Odio el pimiento 👺"
+  },
+  {
+    "id": 322,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T03:46:50.927Z",
+    "type": "text",
+    "content": "El pimiento es feo"
+  },
+  {
+    "id": 323,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T03:46:56.107Z",
+    "type": "text",
+    "content": "Da cosita"
+  },
+  {
+    "id": 324,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T03:46:58.584Z",
+    "type": "text",
+    "content": "Da asquito"
+  },
+  {
+    "id": 325,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T03:47:01.234Z",
+    "type": "text",
+    "content": "No lo soporto"
+  },
+  {
+    "id": 326,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T03:52:04.251Z",
+    "type": "audio",
+    "content": "/audio/chat/325.aac"
+  },
+  {
+    "id": 327,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T03:56:59.777Z",
+    "type": "audio",
+    "content": "/audio/chat/326.aac"
+  },
+  {
+    "id": 328,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T05:16:25.191Z",
+    "type": "text",
+    "content": "Siii. Aunque siendo sincero la que se encarga más de ella es mi hermana, yo apoyo cuando puedo"
+  },
+  {
+    "id": 329,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T05:17:13.332Z",
+    "type": "text",
+    "content": "O también monetareamente cuando necesito su bravecto o ahora último su traje anti lluvia jsjs"
+  },
+  {
+    "id": 330,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T05:31:33.642Z",
+    "type": "text",
+    "content": "Pero eso sí, le doy todos los mimitos que puedo cuando la veo"
+  },
+  {
+    "id": 331,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T05:32:59.355Z",
+    "type": "text",
+    "content": "yami"
+  },
+  {
+    "id": 332,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T05:33:21.546Z",
+    "type": "text",
+    "content": "Okey, interesante gustos"
+  },
+  {
+    "id": 333,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T05:33:49.917Z",
+    "type": "text",
+    "content": "Tienes alguna flor que te guste en específico?"
+  },
+  {
+    "id": 334,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T05:35:18.986Z",
+    "type": "text",
+    "content": "Por la textura, según parece o también te disgusta por el sabor"
+  },
+  {
+    "id": 335,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T05:35:45.559Z",
+    "type": "text",
+    "content": "Te respondo los audios a penas me levante, si paso un minuto más despierto no me levantaré jsjsksk"
+  },
+  {
+    "id": 336,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T12:52:03.984Z",
+    "type": "text",
+    "content": "Mi top 1 son los tulipanes"
+  },
+  {
+    "id": 337,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T12:52:13.155Z",
+    "type": "text",
+    "content": "En segundo lugar las rosas rosadas"
+  },
+  {
+    "id": 338,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T12:52:33.134Z",
+    "type": "text",
+    "content": "Me gustan porque parecen cebollitas"
+  },
+  {
+    "id": 339,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T12:55:08.753Z",
+    "type": "text",
+    "content": "Todo, textura, sabor, olor"
+  },
+  {
+    "id": 340,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T12:55:15.986Z",
+    "type": "text",
+    "content": "Okis, y buenos días uu"
+  },
+  {
+    "id": 341,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T13:40:18.788Z",
+    "type": "text",
+    "content": "Buenos días"
+  },
+  {
+    "id": 342,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T13:50:03.827Z",
+    "type": "text",
+    "content": "Oye que genial historia de por qué elegiste tu carrera, de verdad"
+  },
+  {
+    "id": 343,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T13:50:13.773Z",
+    "type": "text",
+    "content": "Toda una historia de superación y glow up"
+  },
+  {
+    "id": 344,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T13:51:06.669Z",
+    "type": "text",
+    "content": "Muy interesante, de verdad"
+  },
+  {
+    "id": 345,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T13:51:41.755Z",
+    "type": "text",
+    "content": "En increíble que ya hayas tenido tu vacante antes de salir del cole, ya no tenías esa preocupación, nada, todo chill"
+  },
+  {
+    "id": 346,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T13:54:37.561Z",
+    "type": "text",
+    "content": "E*"
+  },
+  {
+    "id": 347,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T13:54:59.709Z",
+    "type": "text",
+    "content": "Merece un aplauso"
+  },
+  {
+    "id": 348,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T13:55:05.637Z",
+    "type": "text",
+    "content": "* clap *"
+  },
+  {
+    "id": 349,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T13:56:34.254Z",
+    "type": "text",
+    "content": "Ah y si me comentaste que querías nutrición clínica, entendí en parte jsksks por las terminologías, pero está bien c:"
+  },
+  {
+    "id": 350,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T14:01:38.332Z",
+    "type": "text",
+    "content": "Okey okey, anotada la respuesta respecto a que buscas en Boo, me parece un pensamiento maduro y sólido"
+  },
+  {
+    "id": 351,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T14:04:23.130Z",
+    "type": "text",
+    "content": "No entendí bien que querías saber pero basándome el contexto, ¿mi estado civil?"
+  },
+  {
+    "id": 352,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T14:06:47.420Z",
+    "type": "text",
+    "content": "Ah ya entendí, ¿qué busco en Boo?"
+  },
+  {
+    "id": 353,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T14:23:40.808Z",
+    "type": "text",
+    "content": "Buena elección, que bonitas"
+  },
+  {
+    "id": 354,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T14:23:46.645Z",
+    "type": "text",
+    "content": "Tienes jardín en tu casa?"
+  },
+  {
+    "id": 355,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T14:23:54.549Z",
+    "type": "text",
+    "content": "Got it"
+  },
+  {
+    "id": 356,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T14:37:15.428Z",
+    "type": "deleted",
+    "content": ""
+  },
+  {
+    "id": 357,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T14:44:38.775Z",
+    "type": "deleted",
+    "content": ""
+  },
+  {
+    "id": 358,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T14:46:44.716Z",
+    "type": "deleted",
+    "content": ""
+  },
+  {
+    "id": 359,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T14:55:42.424Z",
+    "type": "deleted",
+    "content": ""
+  },
+  {
+    "id": 360,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T15:00:18.214Z",
+    "type": "text",
+    "content": "Viste mi historia?"
+  },
+  {
+    "id": 361,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T15:00:44.055Z",
+    "type": "text",
+    "content": "Y menos mal hoy entro tarde porque a un conductor del metro se rompió la cabeza en el embarque del Expreso que tomo"
+  },
+  {
+    "id": 362,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T17:19:17.280Z",
+    "type": "audio",
+    "content": "/audio/chat/361.aac"
+  },
+  {
+    "id": 363,
+    "sender": "Ivan",
+    "createdAt": "2025-06-30T17:21:10.633Z",
+    "type": "audio",
+    "content": "/audio/chat/362.aac"
+  },
+  {
+    "id": 364,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T22:55:57.229Z",
+    "type": "text",
+    "content": "Antes que nada"
+  },
+  {
+    "id": 365,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T22:56:02.226Z",
+    "type": "text",
+    "content": "Recién puedo entrar a la app"
+  },
+  {
+    "id": 366,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T22:56:06.572Z",
+    "type": "text",
+    "content": "Tuve un día feito"
+  },
+  {
+    "id": 367,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T22:56:11.080Z",
+    "type": "text",
+    "content": "Recién llego a mi casita"
+  },
+  {
+    "id": 368,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T22:56:24.826Z",
+    "type": "text",
+    "content": "Tuve cólicos fuertes y tuve que regresar temprano a mi casa"
+  },
+  {
+    "id": 369,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T22:56:57.968Z",
+    "type": "text",
+    "content": "Jajajaja muchas gracias"
+  },
+  {
+    "id": 370,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T22:57:29.494Z",
+    "type": "text",
+    "content": "Ujum"
+  },
+  {
+    "id": 371,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T22:57:36.502Z",
+    "type": "text",
+    "content": "Esa fue la pregunta"
+  },
+  {
+    "id": 372,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T22:57:53.476Z",
+    "type": "text",
+    "content": "Mi mamá tiene plantitas"
+  },
+  {
+    "id": 373,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T22:58:07.244Z",
+    "type": "text",
+    "content": "A ella le gustan las rosas"
+  },
+  {
+    "id": 374,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T22:58:16.294Z",
+    "type": "text",
+    "content": "Tiene varias"
+  },
+  {
+    "id": 375,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T23:00:39.846Z",
+    "type": "text",
+    "content": "Cuál? La de IG?"
+  },
+  {
+    "id": 376,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T23:00:42.693Z",
+    "type": "text",
+    "content": "Nu creo"
+  },
+  {
+    "id": 377,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T23:00:51.591Z",
+    "type": "text",
+    "content": "Solo ví esa vez tu historia de cuando fuiste a una fiesta"
+  },
+  {
+    "id": 378,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T23:09:00.347Z",
+    "type": "text",
+    "content": "Ay qué feitooo"
+  },
+  {
+    "id": 379,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T23:14:07.244Z",
+    "type": "text",
+    "content": "Jajaja soltera"
+  },
+  {
+    "id": 380,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T23:14:17.609Z",
+    "type": "text",
+    "content": "Me agrada que no tengas masculinidad frágil"
+  },
+  {
+    "id": 381,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T23:15:24.437Z",
+    "type": "text",
+    "content": "Jajaja no ntp"
+  },
+  {
+    "id": 382,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T23:15:28.197Z",
+    "type": "text",
+    "content": "Pero qué escribiste?"
+  },
+  {
+    "id": 383,
+    "sender": "Antonella",
+    "createdAt": "2025-06-30T23:15:32.336Z",
+    "type": "text",
+    "content": "Exactamente"
+  },
+  {
+    "id": 384,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:30:28.631Z",
+    "type": "text",
+    "content": "Aish, me comentabas que estanas preensttual así que asuntos que este es uno de los primeros y dolores días"
+  },
+  {
+    "id": 385,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:31:42.411Z",
+    "type": "text",
+    "content": "Todo bien, ntp"
+  },
+  {
+    "id": 386,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:32:41.548Z",
+    "type": "text",
+    "content": "Ahora cómo te sientes, ¿te duele menos?"
+  },
+  {
+    "id": 387,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:35:27.714Z",
+    "type": "text",
+    "content": "Ohhhh que bonito, las rosas son muy bonitas, así es . ¿Qué otras tiene?"
+  },
+  {
+    "id": 388,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:36:38.617Z",
+    "type": "deleted",
+    "content": ""
+  },
+  {
+    "id": 389,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:36:38.920Z",
+    "type": "text",
+    "content": "Nunca nadie se había preocupado tanto por lo jajaja"
+  },
+  {
+    "id": 390,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:37:21.736Z",
+    "type": "image",
+    "content": "/images/chat/389.jpg",
+    "caption": "¡ Ivan te envió una foto!"
+  },
+  {
+    "id": 391,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:37:43.812Z",
+    "type": "text",
+    "content": "Ahh, es que conseguí entradas para una banda que me encanta"
+  },
+  {
+    "id": 392,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:37:45.033Z",
+    "type": "text",
+    "content": "Yeiiiii"
+  },
+  {
+    "id": 393,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:41:54.329Z",
+    "type": "text",
+    "content": "Claro, la vida se volvió más divertida y llevadera cuando empecé a llevarla de esa manera jajaja"
+  },
+  {
+    "id": 394,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:42:40.609Z",
+    "type": "text",
+    "content": "Oki"
+  },
+  {
+    "id": 395,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:44:40.084Z",
+    "type": "text",
+    "content": "O sea lo mismo pero con otras palabras, tipo que buscaba a alguien estable porque mi experiencia había sido pues chicas traumadas pero ya tenía claro que eso no es lo que quería"
+  },
+  {
+    "id": 396,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T01:45:02.793Z",
+    "type": "text",
+    "content": "Y otras cositas que ya no recuerdo pero si recuerdo que sonaban muy duras así"
+  },
+  {
+    "id": 397,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:26:04.429Z",
+    "type": "text",
+    "content": "Hoy es el primer día"
+  },
+  {
+    "id": 398,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:26:11.384Z",
+    "type": "text",
+    "content": "Mestruación 1 - Antok 0"
+  },
+  {
+    "id": 399,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:26:14.558Z",
+    "type": "text",
+    "content": "Me pegó fuerte"
+  },
+  {
+    "id": 400,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:26:17.085Z",
+    "type": "text",
+    "content": "Mucho mucho"
+  },
+  {
+    "id": 401,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:26:43.914Z",
+    "type": "text",
+    "content": "Me agarraba la pancita y me la sobaba"
+  },
+  {
+    "id": 402,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:26:52.202Z",
+    "type": "text",
+    "content": "Para darle calor a mi vientre"
+  },
+  {
+    "id": 403,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:26:56.310Z",
+    "type": "text",
+    "content": "Y en eso me voy al baño"
+  },
+  {
+    "id": 404,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:27:00.957Z",
+    "type": "text",
+    "content": "Y una señora creo que me vio mal"
+  },
+  {
+    "id": 405,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:27:05.063Z",
+    "type": "text",
+    "content": "Y me preguntó si estaba mal"
+  },
+  {
+    "id": 406,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:27:12.584Z",
+    "type": "text",
+    "content": "Y yo le dije siiii, tengo ganas de vomitar"
+  },
+  {
+    "id": 407,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:27:19.214Z",
+    "type": "text",
+    "content": "Y me preguntó si estaba gestando xd"
+  },
+  {
+    "id": 408,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:27:38.196Z",
+    "type": "text",
+    "content": "Le dije que noooooo, que era mi mestruación y ya luego me dijo que a sus hijitas también le daban dolores feitos"
+  },
+  {
+    "id": 409,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:27:47.628Z",
+    "type": "text",
+    "content": "Más o menos :("
+  },
+  {
+    "id": 410,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:28:17.760Z",
+    "type": "text",
+    "content": "Tiene orégano, pimientozzzzzzz y no recuerdo qué más xd"
+  },
+  {
+    "id": 411,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:28:29.524Z",
+    "type": "text",
+    "content": "Waos, qué bonito"
+  },
+  {
+    "id": 412,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:28:47.245Z",
+    "type": "text",
+    "content": "Ahhhhhhh"
+  },
+  {
+    "id": 413,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:28:55.031Z",
+    "type": "text",
+    "content": "Bueno ntp por ser tan directo con eso"
+  },
+  {
+    "id": 414,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:28:58.253Z",
+    "type": "text",
+    "content": "Te entiendo perfectamente"
+  },
+  {
+    "id": 415,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:29:05.068Z",
+    "type": "text",
+    "content": "Yo también he tenido malas experiencias"
+  },
+  {
+    "id": 416,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:29:24.829Z",
+    "type": "text",
+    "content": "Si te contara xd"
+  },
+  {
+    "id": 417,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T02:31:21.336Z",
+    "type": "text",
+    "content": "Hubo un momento en dónde me pregunté muchísimo por qué me pasaba eso si yo, en la relación en la que estoy, no soy mala persona, al contrario, cuando me enamoro soy una persona que entrega mucho de sí, soy detallista , soy cariñosa, y priorizo a mi pareja. Pero ya con el tiempito me di cuenta que mi único error había sido elegir mal y aguantar ciertas cositas."
+  },
+  {
+    "id": 418,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:21:46.571Z",
+    "type": "text",
+    "content": "Antok?"
+  },
+  {
+    "id": 419,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:22:33.282Z",
+    "type": "text",
+    "content": "Asu, si, los primeros días son los peores dios. Esas son las historias que cuentan los amigas y mi hermana, no me imagino el dolor"
+  },
+  {
+    "id": 420,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:22:41.698Z",
+    "type": "text",
+    "content": "Maldita menstruación del diablo jajaja"
+  },
+  {
+    "id": 421,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:22:53.080Z",
+    "type": "text",
+    "content": "XD"
+  },
+  {
+    "id": 422,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:23:45.286Z",
+    "type": "text",
+    "content": "Ay noooo"
+  },
+  {
+    "id": 423,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:24:18.940Z",
+    "type": "text",
+    "content": "Jsjsjsjsks. Aiiish, tú eres de la que toma pastillas para que le pasé o esperas nomás?"
+  },
+  {
+    "id": 424,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:25:04.671Z",
+    "type": "text",
+    "content": "Ay no. Ya me imagino como debes estar, el primer día es el peor y encima has tenido que ir a la u y volver más rápido de lo normal"
+  },
+  {
+    "id": 425,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:25:11.466Z",
+    "type": "text",
+    "content": "Una guerrera, increíble"
+  },
+  {
+    "id": 426,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:25:36.011Z",
+    "type": "text",
+    "content": "Pimientoz jajajaja. Orégano, que interesante"
+  },
+  {
+    "id": 427,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:26:07.308Z",
+    "type": "text",
+    "content": "E iré con unos amigos, no sé si te suene la banda Imagine Dragons"
+  },
+  {
+    "id": 428,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:26:21.816Z",
+    "type": "text",
+    "content": "Yeiiii"
+  },
+  {
+    "id": 429,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:26:53.356Z",
+    "type": "text",
+    "content": "Esa primera parte sonó muy tierna de tu parte owww"
+  },
+  {
+    "id": 430,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:27:40.378Z",
+    "type": "text",
+    "content": "Pues si, yo igual. O sea mis gustos antes eran muy wtf. Ahora ya prefiero 1000 veces estar soltero, que mal acompañado como diría el refrán"
+  },
+  {
+    "id": 431,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:28:37.436Z",
+    "type": "text",
+    "content": "En la relación intento hacer cosas manuales, tipo páginas webs y esas cosas jajaja. Tal vez suene muy friki, pero como las manualidades no son mi fuerte pues"
+  },
+  {
+    "id": 432,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:29:56.707Z",
+    "type": "text",
+    "content": "Ya no las hacen así, o sea hay poquita gente que actúe de esa manera tan correcta"
+  },
+  {
+    "id": 433,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T03:30:30.955Z",
+    "type": "text",
+    "content": "Y malditos hombres, conozco a mi especie y muchos dejan muchísimo que desear, pero no todos somos así"
+  },
+  {
+    "id": 434,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:36:46.737Z",
+    "type": "text",
+    "content": "JAJAJAJAAJ así me dicen mis amigas"
+  },
+  {
+    "id": 435,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:37:07.589Z",
+    "type": "text",
+    "content": "A algunas no les duele, a otras como a mí, nos derrumba :("
+  },
+  {
+    "id": 436,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:37:24.430Z",
+    "type": "text",
+    "content": "Me tomé un paracetamol no más"
+  },
+  {
+    "id": 437,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:37:29.032Z",
+    "type": "text",
+    "content": "El dolorcito solo es un día"
+  },
+  {
+    "id": 438,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:37:33.191Z",
+    "type": "text",
+    "content": "Mañana ya estaré como nueva"
+  },
+  {
+    "id": 439,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:37:54.080Z",
+    "type": "text",
+    "content": "NOOOOO"
+  },
+  {
+    "id": 440,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:37:57.538Z",
+    "type": "text",
+    "content": "SIIIIIII ME SUENA"
+  },
+  {
+    "id": 441,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:38:01.692Z",
+    "type": "text",
+    "content": "Me encanta"
+  },
+  {
+    "id": 442,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:38:04.178Z",
+    "type": "text",
+    "content": "Qué suertudo"
+  },
+  {
+    "id": 443,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:38:05.995Z",
+    "type": "text",
+    "content": "Qué lindo"
+  },
+  {
+    "id": 444,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:39:28.364Z",
+    "type": "text",
+    "content": "Jajajaja qué curioso"
+  },
+  {
+    "id": 445,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:39:38.768Z",
+    "type": "text",
+    "content": "De verdad"
+  },
+  {
+    "id": 446,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:39:55.535Z",
+    "type": "text",
+    "content": "Hubo una vez donde soñé que una persona me agarraba de las mejillas a la fuerza y me besaba"
+  },
+  {
+    "id": 447,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:39:59.468Z",
+    "type": "text",
+    "content": "En ese tiempo yo tenía pareja"
+  },
+  {
+    "id": 448,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:40:02.325Z",
+    "type": "text",
+    "content": "Me levanté llorando"
+  },
+  {
+    "id": 449,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:40:07.173Z",
+    "type": "text",
+    "content": "Me levanté echa un océano"
+  },
+  {
+    "id": 450,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:40:11.682Z",
+    "type": "text",
+    "content": "Me levanté sintiéndome mal"
+  },
+  {
+    "id": 451,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:40:17.849Z",
+    "type": "text",
+    "content": "Porque en mi sueño yo había sido infiel"
+  },
+  {
+    "id": 452,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:41:10.700Z",
+    "type": "text",
+    "content": "Y yo recuerdo que a veces cuando me siento en grupo con mis amigos, las piernas a veces chocan, por lo propio de las sillas, de estar todos amontonados, riéndonos, y cuando me pasaba eso, yo me alejaba, sentía que era una falta de respeto hacia mi pareja de ese entonces."
+  },
+  {
+    "id": 453,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:43:04.791Z",
+    "type": "text",
+    "content": "Y cuando le conté a mi psicóloga ese tipo de cositas me decía que si yo era incapaz de ser infiel y respetaba mucho a mi pareja, por qué tolerar a alguien que no era capaz de respetarme por su propia voluntad, que merecía a alguien que lo haga y que algún día llegará."
+  },
+  {
+    "id": 454,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:44:06.547Z",
+    "type": "text",
+    "content": "Ahora, como tú dices, es mejor estar soltera que mal acompañada"
+  },
+  {
+    "id": 455,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T03:44:11.011Z",
+    "type": "text",
+    "content": "Se siente una paz bonita"
+  },
+  {
+    "id": 456,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:10:29.761Z",
+    "type": "text",
+    "content": "Ah yaaa"
+  },
+  {
+    "id": 457,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:10:35.220Z",
+    "type": "text",
+    "content": "raios"
+  },
+  {
+    "id": 458,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:10:42.621Z",
+    "type": "text",
+    "content": "Renovada jsjs"
+  },
+  {
+    "id": 459,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:11:26.119Z",
+    "type": "text",
+    "content": "Te gusta? OMG jajaj que genial, for real. Imagine Dragons me encanta, me alejé un poco de la banda, pero sus canciones las llevó en el corazón"
+  },
+  {
+    "id": 460,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:12:01.051Z",
+    "type": "text",
+    "content": "Durante la pandemia Demonds me hizo llorar durante horas, realmente horas, estaba sumido en la tristeza y el contexto no ayudaba así que lo solté todo"
+  },
+  {
+    "id": 461,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:12:40.773Z",
+    "type": "text",
+    "content": "Aprovecha que aún hay entradas y no está tan caro. Aunque me salió caro, pq ya había gastado lo que debía jsdsaj, le tuve que pedir prestado a mi mm"
+  },
+  {
+    "id": 462,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:12:55.932Z",
+    "type": "text",
+    "content": "Si, así soy jsjsj"
+  },
+  {
+    "id": 463,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:13:10.616Z",
+    "type": "text",
+    "content": "omg"
+  },
+  {
+    "id": 464,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:15:55.420Z",
+    "type": "text",
+    "content": "Waos, nunca había escuchado algo así, y no lo digo en mal plan"
+  },
+  {
+    "id": 465,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:17:20.171Z",
+    "type": "text",
+    "content": "estoy más que sorprendido"
+  },
+  {
+    "id": 466,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:18:00.022Z",
+    "type": "text",
+    "content": "EXACTO, sabia tu psicóloga. Es totalmente cierta esa maldad"
+  },
+  {
+    "id": 467,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:21:17.639Z",
+    "type": "text",
+    "content": "Aunque yo no fui a psicóloga y lo aprendí de manera práctica X_x"
+  },
+  {
+    "id": 468,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:22:04.454Z",
+    "type": "text",
+    "content": "Hablando de páginas web, estoy modificando una que hice hace años, quiero presentarlo como practicas para la u"
+  },
+  {
+    "id": 469,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:22:08.652Z",
+    "type": "image",
+    "content": "/images/chat/468.png",
+    "caption": "¡ Ivan te envió una foto!"
+  },
+  {
+    "id": 470,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T04:56:00.583Z",
+    "type": "text",
+    "content": "Me estaba por a dormir y se aparece una cucaracha. Demonios"
+  },
+  {
+    "id": 471,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T04:58:07.831Z",
+    "type": "text",
+    "content": "Jajajaa veré cuando es el concierto"
+  },
+  {
+    "id": 472,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T04:58:45.339Z",
+    "type": "text",
+    "content": "JAJAJA NOOOO"
+  },
+  {
+    "id": 473,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T04:58:51.531Z",
+    "type": "text",
+    "content": "CREO QUE LLEGAN AL ESTADIO DE SAN MARCOOOOS"
+  },
+  {
+    "id": 474,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T04:59:03.497Z",
+    "type": "text",
+    "content": "Qué bendición"
+  },
+  {
+    "id": 475,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T04:59:10.590Z",
+    "type": "text",
+    "content": "Tocará pasarme por ciudad"
+  },
+  {
+    "id": 476,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T05:00:33.331Z",
+    "type": "text",
+    "content": "Jajajaja, buenu, es parte de mi manera de ser, tal vez suene exagerado, pero era mi manera de respetar, con cositas aunque sean chiquitas o no tan significativas"
+  },
+  {
+    "id": 477,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T05:00:56.701Z",
+    "type": "text",
+    "content": "Con solo ver eso me estresé"
+  },
+  {
+    "id": 478,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:02:06.034Z",
+    "type": "text",
+    "content": "Octubre lo es todo"
+  },
+  {
+    "id": 479,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:02:10.411Z",
+    "type": "text",
+    "content": "Perú es clave"
+  },
+  {
+    "id": 480,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:02:21.983Z",
+    "type": "text",
+    "content": "SIIIII EN SAN MARQUITOS"
+  },
+  {
+    "id": 481,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:02:30.632Z",
+    "type": "text",
+    "content": "Aquí a la vuelta"
+  },
+  {
+    "id": 482,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:02:40.523Z",
+    "type": "text",
+    "content": "Comprate cancha izquierda"
+  },
+  {
+    "id": 483,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:02:52.014Z",
+    "type": "text",
+    "content": "Amén"
+  },
+  {
+    "id": 484,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:03:08.821Z",
+    "type": "text",
+    "content": "Ah verdad mira, acabo de acordarme dos dudas"
+  },
+  {
+    "id": 485,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:03:32.826Z",
+    "type": "text",
+    "content": "San Fernando está por Grau y enseñan medicina pero desconozco si Nutrición"
+  },
+  {
+    "id": 486,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:03:34.362Z",
+    "type": "text",
+    "content": "2."
+  },
+  {
+    "id": 487,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:04:02.853Z",
+    "type": "text",
+    "content": "Cómo tienes 14K seguidores en IG? Me quedé boquiabierto dije \"queeeee\" y explotó mi cabeza"
+  },
+  {
+    "id": 488,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:04:27.044Z",
+    "type": "text",
+    "content": "Yo doy ack"
+  },
+  {
+    "id": 489,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:04:34.325Z",
+    "type": "text",
+    "content": "Dice mucho de ti"
+  },
+  {
+    "id": 490,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:04:40.787Z",
+    "type": "text",
+    "content": "Una vez más, ya no las hacen así"
+  },
+  {
+    "id": 491,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:05:27.059Z",
+    "type": "text",
+    "content": "3. Cuantos años tienes? No he preguntado eso y si bien ya estás en 4to año y debes ser mayor de edad nunca está demás preguntar"
+  },
+  {
+    "id": 492,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:07:33.585Z",
+    "type": "text",
+    "content": "(no vaya ser que la policía me caiga un día de estos disfrazados de Don José de San Martín -porque hacen operativos disfrazados y como se acerca 28 de Julio - muy forchi)"
+  },
+  {
+    "id": 493,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:07:47.164Z",
+    "type": "text",
+    "content": "Y eso"
+  },
+  {
+    "id": 494,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:08:21.441Z",
+    "type": "text",
+    "content": "Tú perfil dice 20, genial"
+  },
+  {
+    "id": 495,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:08:33.823Z",
+    "type": "text",
+    "content": "Y tmb dice que estás loca por los altos jajajaja"
+  },
+  {
+    "id": 496,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:08:37.011Z",
+    "type": "text",
+    "content": "Mira tu"
+  },
+  {
+    "id": 497,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T05:08:54.285Z",
+    "type": "text",
+    "content": "Bueno, me pudro de sueño, vai vai (c apaga de golpe)"
+  },
+  {
+    "id": 498,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T05:33:06.643Z",
+    "type": "audio",
+    "content": "/audio/chat/497.aac"
+  },
+  {
+    "id": 499,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T05:33:30.466Z",
+    "type": "audio",
+    "content": "/audio/chat/498.aac"
+  },
+  {
+    "id": 500,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T05:34:23.146Z",
+    "type": "audio",
+    "content": "/audio/chat/499.aac"
+  },
+  {
+    "id": 501,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T05:35:52.972Z",
+    "type": "audio",
+    "content": "/audio/chat/500.aac"
+  },
+  {
+    "id": 502,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:04:03.739Z",
+    "type": "text",
+    "content": "Asmr dices"
+  },
+  {
+    "id": 503,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:04:06.014Z",
+    "type": "text",
+    "content": "A ver"
+  },
+  {
+    "id": 504,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:04:56.091Z",
+    "type": "text",
+    "content": "Okey, entonces estudias en San Fernando y tmb por acá"
+  },
+  {
+    "id": 505,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:05:03.209Z",
+    "type": "text",
+    "content": "Yo vivo buen cerquita de San Marcos"
+  },
+  {
+    "id": 506,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:05:38.414Z",
+    "type": "text",
+    "content": "Literal puedo llevar caminando, es más ahora voy a pasar por ahí. Habrán avanzado con el cerco y la estación? Sigan viendo"
+  },
+  {
+    "id": 507,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:05:51.225Z",
+    "type": "text",
+    "content": "Duda absuelta"
+  },
+  {
+    "id": 508,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:06:10.260Z",
+    "type": "text",
+    "content": "Perame, voy a subir al bus"
+  },
+  {
+    "id": 509,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:10:46.096Z",
+    "type": "text",
+    "content": "Ah yaaa. Oye impresionante he, jaja no dejas de sorprenderme"
+  },
+  {
+    "id": 510,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:11:09.658Z",
+    "type": "text",
+    "content": "JAJAJAJA la forma como lo dices me dio mucha risa"
+  },
+  {
+    "id": 511,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:12:11.022Z",
+    "type": "text",
+    "content": "20, okey. Perfecto"
+  },
+  {
+    "id": 512,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:13:09.864Z",
+    "type": "image",
+    "content": "/images/chat/511.jpg",
+    "caption": "¡ Ivan te envió una foto!"
+  },
+  {
+    "id": 513,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:13:10.629Z",
+    "type": "text",
+    "content": "Esoooo. Ya no hay un terral del lado del cerco perimétrico"
+  },
+  {
+    "id": 514,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:15:13.596Z",
+    "type": "text",
+    "content": "JAJAJA está bien, no juzgo ni nada"
+  },
+  {
+    "id": 515,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:15:18.376Z",
+    "type": "text",
+    "content": "Chichonas jajajkaa"
+  },
+  {
+    "id": 516,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T16:16:00.289Z",
+    "type": "text",
+    "content": "Yo todo orgulloso de mí metro ochenta y cinco"
+  },
+  {
+    "id": 517,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T16:54:39.362Z",
+    "type": "text",
+    "content": "Estabas por ciudad jajaja"
+  },
+  {
+    "id": 518,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T16:54:47.926Z",
+    "type": "text",
+    "content": "Yo voy a pasar por ahí en un rato"
+  },
+  {
+    "id": 519,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T16:55:09.644Z",
+    "type": "text",
+    "content": "Siii"
+  },
+  {
+    "id": 520,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T16:55:38.607Z",
+    "type": "text",
+    "content": "Me imagino"
+  },
+  {
+    "id": 521,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T16:55:54.773Z",
+    "type": "text",
+    "content": "Ya quisieran muchos medir 1.85"
+  },
+  {
+    "id": 522,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T16:56:02.536Z",
+    "type": "text",
+    "content": "Yo quería llegar a 1.70"
+  },
+  {
+    "id": 523,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T16:56:14.274Z",
+    "type": "text",
+    "content": "Pero me quedé en 1.62 😫🥲"
+  },
+  {
+    "id": 524,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T17:04:07.196Z",
+    "type": "audio",
+    "content": "/audio/chat/523.aac"
+  },
+  {
+    "id": 525,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T17:06:10.316Z",
+    "type": "audio",
+    "content": "/audio/chat/524.aac"
+  },
+  {
+    "id": 526,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T17:06:23.442Z",
+    "type": "audio",
+    "content": "/audio/chat/525.aac"
+  },
+  {
+    "id": 527,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T17:12:47.422Z",
+    "type": "audio",
+    "content": "/audio/chat/526.aac"
+  },
+  {
+    "id": 528,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T17:12:55.007Z",
+    "type": "text",
+    "content": "Ahora sus s envo"
+  },
+  {
+    "id": 529,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T17:51:09.150Z",
+    "type": "text",
+    "content": "Pero"
+  },
+  {
+    "id": 530,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T17:51:10.551Z",
+    "type": "text",
+    "content": "A ver"
+  },
+  {
+    "id": 531,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T17:51:15.943Z",
+    "type": "text",
+    "content": "Cuánto pesas? Xd"
+  },
+  {
+    "id": 532,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T17:51:35.509Z",
+    "type": "text",
+    "content": "Tanto habrás bajado"
+  },
+  {
+    "id": 533,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T17:51:52.465Z",
+    "type": "text",
+    "content": "Jajajaja yo tampoco me acostumbro"
+  },
+  {
+    "id": 534,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T17:52:04.381Z",
+    "type": "text",
+    "content": "A veces los mensajes llegan lentitooo"
+  },
+  {
+    "id": 535,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T18:46:03.551Z",
+    "type": "text",
+    "content": "Ay nu"
+  },
+  {
+    "id": 536,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T18:46:08.113Z",
+    "type": "text",
+    "content": "Ahora sí está raro mi Boo"
+  },
+  {
+    "id": 537,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T18:46:12.236Z",
+    "type": "text",
+    "content": "No me aparece nuestro chat"
+  },
+  {
+    "id": 538,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T18:46:18.152Z",
+    "type": "text",
+    "content": "Solo cuando tú me mandas mensajes"
+  },
+  {
+    "id": 539,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T18:46:31.454Z",
+    "type": "text",
+    "content": "Luego tengo que buscarlo manualmente"
+  },
+  {
+    "id": 540,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T18:46:36.940Z",
+    "type": "text",
+    "content": "😫"
+  },
+  {
+    "id": 541,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T19:35:34.700Z",
+    "type": "text",
+    "content": "Pesaba 75.1 y  ahora peso 73.1"
+  },
+  {
+    "id": 542,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T19:35:53.968Z",
+    "type": "text",
+    "content": "Pero la idea es sobrepsar esos 75 y ponerme así enorme"
+  },
+  {
+    "id": 543,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T19:36:35.668Z",
+    "type": "text",
+    "content": "peor ir al baño me baja de peso I mean, maldita sea ser ectomorfo"
+  },
+  {
+    "id": 544,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T19:36:39.095Z",
+    "type": "text",
+    "content": "pero*"
+  },
+  {
+    "id": 545,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T19:36:52.442Z",
+    "type": "text",
+    "content": "que raro"
+  },
+  {
+    "id": 546,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T19:37:09.555Z",
+    "type": "text",
+    "content": "Creo que es hora de pasar a ig"
+  },
+  {
+    "id": 547,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T19:38:16.682Z",
+    "type": "text",
+    "content": "o wsp, pero no quería insistir con el tema. So podemos hablar por ig ya que boo está medio pedorro"
+  },
+  {
+    "id": 548,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T19:38:31.848Z",
+    "type": "text",
+    "content": "ahí te envíe un audio mas larguito, lo escuchas cuando puedas, ahorita debes estar en clases imagino"
+  },
+  {
+    "id": 549,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T19:52:52.468Z",
+    "type": "text",
+    "content": "Ah verdad, ¿qué tal te está yendo con la regla? Por lo que veo creo que mejor"
+  },
+  {
+    "id": 550,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T22:36:50.931Z",
+    "type": "text",
+    "content": "Te parece si te respondo por IG?"
+  },
+  {
+    "id": 551,
+    "sender": "Antonella",
+    "createdAt": "2025-07-01T22:36:55.570Z",
+    "type": "text",
+    "content": "Está bien raro Boo"
+  },
+  {
+    "id": 552,
+    "sender": "Ivan",
+    "createdAt": "2025-07-01T22:51:46.415Z",
+    "type": "text",
+    "content": "Va"
+  }
+]

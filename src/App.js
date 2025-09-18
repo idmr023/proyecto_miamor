@@ -9,6 +9,7 @@ import Mapa from 'pages/Regalitos/Bitácora/MapaAventuras';
 import Carta from 'pages/Regalitos/CartitaAmor/Carta';
 import LoveGame from 'pages/Regalitos/JuegaAmor/LoveGame';
 import MetasUniverso from 'pages/Regalitos/MetasUniverso/MetasUniverso';
+import BooChatConversation from 'pages/Regalitos/BooChat/BooChatConversation';
 
 export const rutasRegalitos = [
   { path: "/regalitos/cartita_conocernos", element: <Carta />, name: 'Cartita de amor'},
@@ -17,6 +18,7 @@ export const rutasRegalitos = [
   { path: "/regalitos/lista_regalos", element: <ListaRegalos />, name: 'Lista de regalitos'},
   { path: "/regalitos/bitacora", element: <Mapa />, name: 'Bitácora' },
   { path: "/regalitos/metas", element: <MetasUniverso />, name: 'Nuestras metas'},
+  { path: "/regalitos/chat", element: <BooChatConversation />, name: 'Chat de Boo, donde todo inició'}
 ]
 
 const AppRoutes = () => {
